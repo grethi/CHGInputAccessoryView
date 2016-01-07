@@ -1,0 +1,26 @@
+{
+  "name": "CHGInputAccessoryView",
+  "version": "0.1.0",
+  "summary": "A short description of CHGInputAccessoryView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CHGInputAccessoryView",
+  "license": "MIT",
+  "authors": {
+    "Christian": "greth.christian@googlemail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CHGInputAccessoryView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CHGInputAccessoryView": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit"
+}

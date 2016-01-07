@@ -1,0 +1,6 @@
+framework module CHGInputAccessoryView {
+  umbrella header "CHGInputAccessoryView-umbrella.h"
+
+  export *
+  module * { export * }
+}

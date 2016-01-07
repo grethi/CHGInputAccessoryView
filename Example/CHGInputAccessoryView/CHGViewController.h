@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface CHGViewController : UIViewController
+#import "CHGView.h"
+
+@interface CHGViewController : UIViewController <CHGInputAccessoryViewDelegate>
 
 @end
