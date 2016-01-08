@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '59950A8B1DF4D92B3A2C3683'
+               BlueprintIdentifier = 'BBBF65607EE84152E4591936'
                BlueprintName = 'CHGInputAccessoryView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CHGInputAccessoryView.framework'>

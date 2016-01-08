@@ -12,4 +12,6 @@
 
 @interface CHGViewController : UIViewController <CHGInputAccessoryViewDelegate>
 
+@property (nonatomic, readwrite, retain) UIView *inputAccessoryView;
+
 @end

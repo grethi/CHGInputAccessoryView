@@ -23,8 +23,8 @@
 
 - (BOOL)becomeFirstResponder
 {
-    //[super becomeFirstResponder];
-    //[self.inputAccessoryView becomeFirstResponder];
+    [super becomeFirstResponder];
+    [self.inputAccessoryView becomeFirstResponder];
     return true;
 }
 

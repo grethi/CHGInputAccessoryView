@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08ACD48747ACB546879CAF32E77001FC /* CHGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C78D836C491989294517CE497C603E33 /* CHGInputAccessoryView.m */; };
+		0AB84482DCF8230E937BC03BB191A52C /* CHGInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */; };
 		1060B4F4ED5F67BC8BB2B56DCC73B137 /* Pods-CHGInputAccessoryView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4569E789B77DB06EE29326FD7C14617 /* Pods-CHGInputAccessoryView_Tests-dummy.m */; };
+		147CA92BBB2A0BD31B82626CC5BDC6D9 /* CHGInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C1214E4C807430D97AAE8B4D1D66C4 /* CHGInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		193647219C01C78BF22526F27D5A8C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		360124755E5309F1931E1AA32C9466A4 /* CHGInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0696AB908F361B8132B989E77425D7 /* CHGInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6E1C2899E139F1951A03A0DE9D5B60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		3138A0DD60510EA8A8FFCD86D061C152 /* CHGInputAccessoryView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */; };
 		3F90BA993858D99E4C3FE8798EFE57C3 /* Pods-CHGInputAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B714BB87DCA4DAFC29B713D06CDD8F8 /* Pods-CHGInputAccessoryView_Example-dummy.m */; };
-		55FA9D2A950334116E75EF21F6E1B5CA /* CHGInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */; };
-		5B10D1811DC89B7396DC5EC0F3CBC89F /* CHGInputAccessoryView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */; };
-		6077A6782AE590F136C0AEC9D803BFB5 /* CHGInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EF00287585E0F8D523A0D1C525C67E0 /* CHGView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8887A55BD2DD7325784F0FE2FB269EB /* CHGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71E437697026E4022174E2D2317F0D49 /* CHGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2998316D3A38589BA14BAD185F5594CF /* CHGView.m */; };
-		7C8D4EF7FD2F499CD3BCE9709F801916 /* CHGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD503146E97A37FD2C409B6F5284D8 /* CHGInputAccessoryView.m */; };
+		5B84A1AE2AA064F08247B55E10EC3E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		9436E6EFDF77812ED38A0A52B960742C /* CHGInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9621AFEC5658D639EDD55A01CCA1D6BC /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DC63717E03469EE0158153FAEEB1E58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 		D6F64CD79A51772CA61839D115290E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		EA3FD8433577195CA45A4FCEEEBF3A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		E0B83FF7A04E6B84B88A190C5CDA85D3 /* CHGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7B41220D3B8F62229836B3BDCFE469 /* CHGView.m */; };
+		F4EE43E3AA82EE8FE12BFA23AA393BFF /* CHGView.h in Headers */ = {isa = PBXBuildFile; fileRef = A46182B2A0B7262038F0436BC607E278 /* CHGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9459E0EE4C4669BCF9F38F06EE5A48F /* Pods-CHGInputAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E26373D84F013DBCBCC8360DF7198D /* Pods-CHGInputAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -29,21 +29,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B8A69AEE88F017E2D0474D02FEAD2A0;
+			remoteGlobalIDString = 22917F5B3259C89C758ACCCC72AFA907;
 			remoteInfo = CHGInputAccessoryView;
 		};
 		82F1C6A1488B8AF3398D7E2753685B18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B8A69AEE88F017E2D0474D02FEAD2A0;
+			remoteGlobalIDString = 22917F5B3259C89C758ACCCC72AFA907;
 			remoteInfo = CHGInputAccessoryView;
 		};
-		F28013842B5F4503A8B5BFFF6E6D5202 /* PBXContainerItemProxy */ = {
+		B5222AF7E1976F9DC169D5D5AE0C8233 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 362BFECF581DFB15BC2C9FBC0F015100;
+			remoteGlobalIDString = D35A5F54541B793C9530406E60EDE470;
 			remoteInfo = "CHGInputAccessoryView-CHGInputAccessoryView";
 		};
 /* End PBXContainerItemProxy section */
@@ -54,34 +54,34 @@
 		1D6CE80F7065EF607D431377A9B7A182 /* Pods-CHGInputAccessoryView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHGInputAccessoryView.xcconfig; sourceTree = "<group>"; };
 		276B331E917F272F9F4B630A72EA8A7B /* Pods-CHGInputAccessoryView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGInputAccessoryView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2998316D3A38589BA14BAD185F5594CF /* CHGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGView.m; sourceTree = "<group>"; };
 		2BEAC985C16FAD94C6EDFBBCF57A3631 /* Pods-CHGInputAccessoryView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGInputAccessoryView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2D4B194D801F63FDB2188D7512283F61 /* Pods-CHGInputAccessoryView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGInputAccessoryView_Tests.modulemap"; sourceTree = "<group>"; };
 		4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGInputAccessoryView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-umbrella.h"; sourceTree = "<group>"; };
 		54E26373D84F013DBCBCC8360DF7198D /* Pods-CHGInputAccessoryView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGInputAccessoryView_Example-umbrella.h"; sourceTree = "<group>"; };
-		5F0696AB908F361B8132B989E77425D7 /* CHGInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryView.h; sourceTree = "<group>"; };
 		6B714BB87DCA4DAFC29B713D06CDD8F8 /* Pods-CHGInputAccessoryView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGInputAccessoryView_Example-dummy.m"; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		704F584FF88FD41D21DE1B5FF33A0914 /* Pods_CHGInputAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGInputAccessoryView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A0BD7111B497109F180E5B4282AEF2 /* Pods-CHGInputAccessoryView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76C1214E4C807430D97AAE8B4D1D66C4 /* CHGInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryView.h; sourceTree = "<group>"; };
 		7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHGInputAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8669DD2988A9EEBC268A28D6346AF2F6 /* Pods-CHGInputAccessoryView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Tests-resources.sh"; sourceTree = "<group>"; };
 		9F794C44062D685D7D712B881AE8E992 /* Pods-CHGInputAccessoryView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Example-resources.sh"; sourceTree = "<group>"; };
 		9FC5F8143F1B511D0C272C2E071D5022 /* Pods-CHGInputAccessoryView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A46182B2A0B7262038F0436BC607E278 /* CHGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGView.h; sourceTree = "<group>"; };
 		A4DB9452A619D11B5BFA92AE73781AE5 /* Pods-CHGInputAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7EBF4280071B800FD09C4B932F81936 /* Pods-CHGInputAccessoryView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGInputAccessoryView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C6B096706DCDC233D7AE72F24396F4A6 /* Pods-CHGInputAccessoryView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C8887A55BD2DD7325784F0FE2FB269EB /* CHGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGView.h; sourceTree = "<group>"; };
+		C78D836C491989294517CE497C603E33 /* CHGInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryView.m; sourceTree = "<group>"; };
 		C9F8B5ECE945D196ECAC1B68F19941D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC3CC6A236F98AA5B88151580B1BF60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7B41220D3B8F62229836B3BDCFE469 /* CHGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGView.m; sourceTree = "<group>"; };
 		CFD83E517845C205BC7243EF47419D0C /* CHGInputAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CHGInputAccessoryView.modulemap; sourceTree = "<group>"; };
 		D40B238C47E0D0B37FB0A4D9FC964DDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4668B2FF384BE164D5B7B7C95BA3214 /* Pods-CHGInputAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGInputAccessoryView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D6FD503146E97A37FD2C409B6F5284D8 /* CHGInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryView.m; sourceTree = "<group>"; };
 		DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHGInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		F4569E789B77DB06EE29326FD7C14617 /* Pods-CHGInputAccessoryView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGInputAccessoryView_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4A49CB2CCBF16C724BD1590A8663C15 /* Pods_CHGInputAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGInputAccessoryView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,10 +89,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		028F3302B61B659DA30A6FB2A785BAF3 /* Frameworks */ = {
+		4D3927357B3E1BCD3BAE62E660AD8C9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B84A1AE2AA064F08247B55E10EC3E7E /* Foundation.framework in Frameworks */,
+				2E6E1C2899E139F1951A03A0DE9D5B60 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,15 +106,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76AF3A97D34C9D110C63C0CF2DDB7A02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA3FD8433577195CA45A4FCEEEBF3A71 /* Foundation.framework in Frameworks */,
-				9DC63717E03469EE0158153FAEEB1E58 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B7F97A79835C32898DFB310CB931BC03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,9 +114,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCD4B3642BE01A55A7BC898E08D359D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12CD7D44C40DAA5D1DF473D91498A36E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D27CE2C897444FE4A9DFB275F117BFAF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		15002BB49FAB90F0E213BB3D01B28820 /* Pods-CHGInputAccessoryView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +170,7 @@
 		6C6114D85E0D78280610B79BADF7CF75 /* CHGInputAccessoryView */ = {
 			isa = PBXGroup;
 			children = (
-				C225061455A82263719165D68BC7E6E1 /* Pod */,
+				12CD7D44C40DAA5D1DF473D91498A36E /* Pod */,
 				999466FB9C4F24FBDA71B9950F06359A /* Support Files */,
 			);
 			name = CHGInputAccessoryView;
@@ -185,17 +193,6 @@
 			);
 			name = "Pods-CHGInputAccessoryView_Example";
 			path = "Target Support Files/Pods-CHGInputAccessoryView_Example";
-			sourceTree = "<group>";
-		};
-		75A1A9FDBD67191AA4B153ABC43D72B7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5F0696AB908F361B8132B989E77425D7 /* CHGInputAccessoryView.h */,
-				D6FD503146E97A37FD2C409B6F5284D8 /* CHGInputAccessoryView.m */,
-				C8887A55BD2DD7325784F0FE2FB269EB /* CHGView.h */,
-				2998316D3A38589BA14BAD185F5594CF /* CHGView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -242,12 +239,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C225061455A82263719165D68BC7E6E1 /* Pod */ = {
+		D27CE2C897444FE4A9DFB275F117BFAF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				75A1A9FDBD67191AA4B153ABC43D72B7 /* Classes */,
+				76C1214E4C807430D97AAE8B4D1D66C4 /* CHGInputAccessoryView.h */,
+				C78D836C491989294517CE497C603E33 /* CHGInputAccessoryView.m */,
+				A46182B2A0B7262038F0436BC607E278 /* CHGView.h */,
+				CE7B41220D3B8F62229836B3BDCFE469 /* CHGView.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		FD29CD86B52B576BAB46FC36E833A6A6 /* Targets Support Files */ = {
@@ -270,13 +270,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98F888B9437BE98AAC166AA47159F908 /* Headers */ = {
+		A3667FAE6A88976478499F638C32F843 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6077A6782AE590F136C0AEC9D803BFB5 /* CHGInputAccessoryView-umbrella.h in Headers */,
-				360124755E5309F1931E1AA32C9466A4 /* CHGInputAccessoryView.h in Headers */,
-				6EF00287585E0F8D523A0D1C525C67E0 /* CHGView.h in Headers */,
+				9436E6EFDF77812ED38A0A52B960742C /* CHGInputAccessoryView-umbrella.h in Headers */,
+				147CA92BBB2A0BD31B82626CC5BDC6D9 /* CHGInputAccessoryView.h in Headers */,
+				F4EE43E3AA82EE8FE12BFA23AA393BFF /* CHGView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,22 +291,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		362BFECF581DFB15BC2C9FBC0F015100 /* CHGInputAccessoryView-CHGInputAccessoryView */ = {
+		22917F5B3259C89C758ACCCC72AFA907 /* CHGInputAccessoryView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 473AF4926C3BF9A19F34DAC50B271CFE /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */;
+			buildConfigurationList = E177A87E34A6CB481765870A3925EEDF /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */;
 			buildPhases = (
-				F7B9FBD9E0092C84D0F879C346D2A5F6 /* Sources */,
-				028F3302B61B659DA30A6FB2A785BAF3 /* Frameworks */,
-				703A44364E942D2C1785EA2B41215ED0 /* Resources */,
+				23CE363E27C9EBF530111D5360364E45 /* Sources */,
+				4D3927357B3E1BCD3BAE62E660AD8C9B /* Frameworks */,
+				9E9E7E01EC0827E8651FA8FBF6E25268 /* Resources */,
+				A3667FAE6A88976478499F638C32F843 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D6330DD8FCFABFC708B0169CD4C7933E /* PBXTargetDependency */,
 			);
-			name = "CHGInputAccessoryView-CHGInputAccessoryView";
-			productName = "CHGInputAccessoryView-CHGInputAccessoryView";
-			productReference = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = CHGInputAccessoryView;
+			productName = CHGInputAccessoryView;
+			productReference = 7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		868283A499E2C9D6C66BF038DD3517BD /* Pods-CHGInputAccessoryView_Tests */ = {
 			isa = PBXNativeTarget;
@@ -326,25 +328,6 @@
 			productReference = 704F584FF88FD41D21DE1B5FF33A0914 /* Pods_CHGInputAccessoryView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9B8A69AEE88F017E2D0474D02FEAD2A0 /* CHGInputAccessoryView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06159FBF1176109DE5384198D41F4C52 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */;
-			buildPhases = (
-				595F190287891D903ADB0D5EBA9D8BED /* Sources */,
-				76AF3A97D34C9D110C63C0CF2DDB7A02 /* Frameworks */,
-				8A406768A4D1B6FC6CB8080D9D83B8DD /* Resources */,
-				98F888B9437BE98AAC166AA47159F908 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FDCBA7D39AD2CB3FBC1D2ED2F58FD4A /* PBXTargetDependency */,
-			);
-			name = CHGInputAccessoryView;
-			productName = CHGInputAccessoryView;
-			productReference = 7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B4C7AD71D9604E05A935D26ECB7E9DB7 /* Pods-CHGInputAccessoryView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB94258132C02B16D262FD0FBF1753CA /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Example" */;
@@ -362,6 +345,23 @@
 			productName = "Pods-CHGInputAccessoryView_Example";
 			productReference = F4A49CB2CCBF16C724BD1590A8663C15 /* Pods_CHGInputAccessoryView_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D35A5F54541B793C9530406E60EDE470 /* CHGInputAccessoryView-CHGInputAccessoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1952467A4A9FB615E294D6CFF618EFC3 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */;
+			buildPhases = (
+				892EE36A6A397E090110C5D11253646D /* Sources */,
+				DCD4B3642BE01A55A7BC898E08D359D8 /* Frameworks */,
+				F0990B00A2F55EFB6D1BF69D8A6D12E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CHGInputAccessoryView-CHGInputAccessoryView";
+			productName = "CHGInputAccessoryView-CHGInputAccessoryView";
+			productReference = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -384,8 +384,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B8A69AEE88F017E2D0474D02FEAD2A0 /* CHGInputAccessoryView */,
-				362BFECF581DFB15BC2C9FBC0F015100 /* CHGInputAccessoryView-CHGInputAccessoryView */,
+				22917F5B3259C89C758ACCCC72AFA907 /* CHGInputAccessoryView */,
+				D35A5F54541B793C9530406E60EDE470 /* CHGInputAccessoryView-CHGInputAccessoryView */,
 				B4C7AD71D9604E05A935D26ECB7E9DB7 /* Pods-CHGInputAccessoryView_Example */,
 				868283A499E2C9D6C66BF038DD3517BD /* Pods-CHGInputAccessoryView_Tests */,
 			);
@@ -393,31 +393,38 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		703A44364E942D2C1785EA2B41215ED0 /* Resources */ = {
+		9E9E7E01EC0827E8651FA8FBF6E25268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3138A0DD60510EA8A8FFCD86D061C152 /* CHGInputAccessoryView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A406768A4D1B6FC6CB8080D9D83B8DD /* Resources */ = {
+		F0990B00A2F55EFB6D1BF69D8A6D12E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B10D1811DC89B7396DC5EC0F3CBC89F /* CHGInputAccessoryView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		595F190287891D903ADB0D5EBA9D8BED /* Sources */ = {
+		23CE363E27C9EBF530111D5360364E45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FA9D2A950334116E75EF21F6E1B5CA /* CHGInputAccessoryView-dummy.m in Sources */,
-				7C8D4EF7FD2F499CD3BCE9709F801916 /* CHGInputAccessoryView.m in Sources */,
-				71E437697026E4022174E2D2317F0D49 /* CHGView.m in Sources */,
+				0AB84482DCF8230E937BC03BB191A52C /* CHGInputAccessoryView-dummy.m in Sources */,
+				08ACD48747ACB546879CAF32E77001FC /* CHGInputAccessoryView.m in Sources */,
+				E0B83FF7A04E6B84B88A190C5CDA85D3 /* CHGView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892EE36A6A397E090110C5D11253646D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,33 +444,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B9FBD9E0092C84D0F879C346D2A5F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FDCBA7D39AD2CB3FBC1D2ED2F58FD4A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CHGInputAccessoryView-CHGInputAccessoryView";
-			target = 362BFECF581DFB15BC2C9FBC0F015100 /* CHGInputAccessoryView-CHGInputAccessoryView */;
-			targetProxy = F28013842B5F4503A8B5BFFF6E6D5202 /* PBXContainerItemProxy */;
-		};
 		A399208911FA72CC174567C153DBF10A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHGInputAccessoryView;
-			target = 9B8A69AEE88F017E2D0474D02FEAD2A0 /* CHGInputAccessoryView */;
+			target = 22917F5B3259C89C758ACCCC72AFA907 /* CHGInputAccessoryView */;
 			targetProxy = 4293037A6B2560DFC7781707486E0E0E /* PBXContainerItemProxy */;
 		};
 		B8D025D39932FB32A58E8551EBEB43D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHGInputAccessoryView;
-			target = 9B8A69AEE88F017E2D0474D02FEAD2A0 /* CHGInputAccessoryView */;
+			target = 22917F5B3259C89C758ACCCC72AFA907 /* CHGInputAccessoryView */;
 			targetProxy = 82F1C6A1488B8AF3398D7E2753685B18 /* PBXContainerItemProxy */;
+		};
+		D6330DD8FCFABFC708B0169CD4C7933E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CHGInputAccessoryView-CHGInputAccessoryView";
+			target = D35A5F54541B793C9530406E60EDE470 /* CHGInputAccessoryView-CHGInputAccessoryView */;
+			targetProxy = B5222AF7E1976F9DC169D5D5AE0C8233 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -571,46 +571,7 @@
 			};
 			name = Debug;
 		};
-		3E78CBE5DECB99EBECD47E5B4342B3A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CHGInputAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		4571691BE60322AF354E1050B42CD14D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CHGInputAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		547F9C74484B5AB3822C046840496E89 /* Release */ = {
+		6FE4E65AFD46B0D41614F082D76846D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
@@ -667,17 +628,32 @@
 			};
 			name = Debug;
 		};
-		C82203283BB7153EF97E5FCB5865A26B /* Release */ = {
+		849F16D50233B7CAF9338C63D3D78370 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = CHGInputAccessoryView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D3EF4BE60BBCC80957E9649A77B96EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -706,6 +682,18 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D96392F5C6786B5FCD0417EA15390678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGInputAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -739,14 +727,26 @@
 			};
 			name = Release;
 		};
+		FE29F8D6847DD83DEC3976A54DD4D31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGInputAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06159FBF1176109DE5384198D41F4C52 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */ = {
+		1952467A4A9FB615E294D6CFF618EFC3 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4571691BE60322AF354E1050B42CD14D /* Debug */,
-				547F9C74484B5AB3822C046840496E89 /* Release */,
+				FE29F8D6847DD83DEC3976A54DD4D31D /* Debug */,
+				D96392F5C6786B5FCD0417EA15390678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,15 +756,6 @@
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		473AF4926C3BF9A19F34DAC50B271CFE /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E78CBE5DECB99EBECD47E5B4342B3A1 /* Debug */,
-				C82203283BB7153EF97E5FCB5865A26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -783,6 +774,15 @@
 			buildConfigurations = (
 				31DC49DEF47F0FC48075B57B26ED03CA /* Debug */,
 				D3EF4BE60BBCC80957E9649A77B96EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E177A87E34A6CB481765870A3925EEDF /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849F16D50233B7CAF9338C63D3D78370 /* Debug */,
+				6FE4E65AFD46B0D41614F082D76846D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

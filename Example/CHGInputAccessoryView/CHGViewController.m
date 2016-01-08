@@ -32,6 +32,8 @@
     
     ((CHGView *)self.view).inputAccessoryView = accessoryView;
     
+    self.inputAccessoryView = accessoryView;
+    
     [self initButton];
     [self initLabel];
 }
@@ -66,6 +68,10 @@
 }
 
 #pragma mark - Actions
+
+- (BOOL)canBecomeFirstResponder {
+    return true;
+}
 
 - (void)didTapAccessoryViewLeftButton:(UIButton *)button
 {
