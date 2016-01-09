@@ -7,7 +7,7 @@ This pod will help to build an inputAccessoryView as simple and fast as possible
                        DESC
 
   s.homepage         = "https://github.com/grethi/CHGInputAccessoryView"
-  s.screenshots     = "https://github.com/grethi/CHGInputAccessoryView/example.gig"
+  s.screenshots     = "https://github.com/grethi/CHGInputAccessoryView/example.gif"
   s.license          = 'MIT'
   s.author           = { "Christian Greth" => "greth.christian@googlemail.com" }
   s.source           = { :git => "https://github.com/grethi/CHGInputAccessoryView.git", :tag => s.version.to_s }
