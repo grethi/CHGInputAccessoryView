@@ -54,9 +54,11 @@
     return separator;
 }
 
-- (BOOL)becomeFirstRsponder
++ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title
 {
-    return NO;
+    CHGInputAccessoryViewItem *button = [[CHGInputAccessoryViewItem alloc] initWithTitle:title style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    return button;
 }
 
 @end

@@ -30,6 +30,7 @@
 + (CHGInputAccessoryViewItem *)flexibleSpace;
 + (CHGInputAccessoryViewItem *)separatorWithColor:(UIColor *)color height:(CGFloat)height;
 + (CHGInputAccessoryViewItem *)buttonWithImage:(UIImage *)image;
++ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title;
 
 - (BOOL)becomeFirstRsponder;
 

@@ -67,7 +67,7 @@
     
     accessoryView.inputAccessoryViewDelegate = self;
     
-    CHGInputAccessoryViewItem *trashItem = [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_trash"]];
+    CHGInputAccessoryViewItem *trashItem = [CHGInputAccessoryViewItem buttonWithTitle:@"Trash"];
     
     trashItem.actionOnTap = ^(CHGInputAccessoryViewItem *item){
         NSLog(@"Tapped trashItem...");
