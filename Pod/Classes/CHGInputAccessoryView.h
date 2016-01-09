@@ -26,7 +26,18 @@
 
 @optional
 
+/**
+ Informs the delegate about a tapped item.
+ 
+ @param item the tapped item
+*/
 - (void)didTapItem:(CHGInputAccessoryViewItem *)item;
+
+/**
+ Informs the delegate about a tapped item.
+ 
+ @param index the tapped item index
+ */
 - (void)didTapItemAtIndex:(NSUInteger)index;
 
 @end
@@ -35,13 +46,49 @@
 
 @property (nonatomic, weak) id<CHGInputAccessoryViewDelegate> inputAccessoryViewDelegate;
 
+/**
+ Builds a new inputAccessoryView.
+*/
 + (id)inputAccessoryView;
+
+/**
+  Builds a new inputAccessoryView.
+ 
+ @param height specify a view height
+ */
 + (id)inputAccessoryViewWithHeight:(CGFloat)height;
 
+/**
+ Adds an item to the right of the inputAccessoryView.
+ 
+ @param item        the item to add
+ @param animated    add the item animated
+ */
 - (void)addItem:(CHGInputAccessoryViewItem *)item animated:(BOOL)animated;
+
+/**
+ Adds an item on a specific index of the inputAccessoryView.
+ 
+ @param item        the item to add
+ @param index       the index position
+ @param animated    add the item animated
+ */
 - (void)addItem:(CHGInputAccessoryViewItem *)item atIndex:(NSUInteger)index animated:(BOOL)animated;
 
+/**
+ Removes an item of inputAccessoryView.
+ 
+ @param item        the item to remove
+ @param animated    remove the item animated
+ */
 - (void)removeItem:(CHGInputAccessoryViewItem *)item animated:(BOOL)animated;;
+
+/**
+ Removes an item at specific index of inputAccessoryView.
+ 
+ @param index       the index of an item to remove
+ @param animated    remove the item animated
+ */
 - (void)removeItemAtIndex:(NSUInteger)index animated:(BOOL)animated;
 
 @end

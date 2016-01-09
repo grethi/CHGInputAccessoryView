@@ -22,16 +22,48 @@
 
 @interface CHGInputAccessoryViewItem : UIBarButtonItem
 
+/**
+ Set this property to YES to automatically size this item.
+*/
 @property BOOL flexibleSize;
 
+/**
+ Assign an action to perfom after tapping the item.
+*/
 @property (nonatomic, copy) void (^actionOnTap)(CHGInputAccessoryViewItem *item);
 
+/**
+ A fixed space item.
+ 
+ @param width space width
+*/
 + (CHGInputAccessoryViewItem *)fixedSpace:(CGFloat)width;
-+ (CHGInputAccessoryViewItem *)flexibleSpace;
-+ (CHGInputAccessoryViewItem *)separatorWithColor:(UIColor *)color height:(CGFloat)height;
-+ (CHGInputAccessoryViewItem *)buttonWithImage:(UIImage *)image;
-+ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title;
 
-- (BOOL)becomeFirstRsponder;
+/**
+ A flexible space item.
+*/
++ (CHGInputAccessoryViewItem *)flexibleSpace;
+
+/**
+ A separator item.
+ 
+ @param color  separators color
+ @param height separators height
+*/
++ (CHGInputAccessoryViewItem *)separatorWithColor:(UIColor *)color height:(CGFloat)height;
+
+/**
+ A button with image item.
+ 
+ @param image button image
+*/
++ (CHGInputAccessoryViewItem *)buttonWithImage:(UIImage *)image;
+
+/**
+ A button with title item.
+ 
+ @param title button title
+*/
++ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title;
 
 @end

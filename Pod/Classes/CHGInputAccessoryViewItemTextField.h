@@ -24,8 +24,14 @@
 
 @interface CHGInputAccessoryViewItemTextField : CHGInputAccessoryViewItem
 
+/**
+ The textField of this item.
+*/
 @property (nonatomic, readonly, retain) UITextField *textField;
 
+/**
+ Builds a new item with a textField.
+*/
 + (CHGInputAccessoryViewItemTextField *)item;
 
 @end

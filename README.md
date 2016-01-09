@@ -80,13 +80,11 @@ CHGInputAccessoryView has some prebuild items:
 ```
 
 - a UITextField
-
-Tip: Modify the textField by accessing CHGInputAccessoryViewItemTextField property textField. The textField will automatically resize to the maximum availabe space. If you want a fixed size for your textField assign a frame on it and set the CHGInputAccessoryViewItem property flexibleSize to NO.
-
 ```objc
 CHGInputAccessoryViewItemTextField *item = [CHGInputAccessoryViewItemTextField item];
 item.textField.placeholder = @"Enter your text";
 ```
+Tip: Modify the textField by accessing CHGInputAccessoryViewItemTextField property textField. The textField will automatically resize to the maximum availabe space. If you want a fixed size for your textField assign a frame on it and set the CHGInputAccessoryViewItem property flexibleSize to NO.
 
 - a flexible or fixed space
 ```objc
@@ -104,13 +102,14 @@ To use the build in delegates (didTapItem: and didTapItemAtIndex:) assign a CHGI
 accessoryView.inputAccessoryViewDelegate = self;
 ```
 
-- Assign a target and action
+- Assign target and action
 ```objc
 item.target = self;
 item.action = @selector(didTapMyItem:);
 ```
+By setting the target the build in delegates will not be called for this item.
 
-- Assign an action block
+- Assign action block
 ```objc
 item.actionOnTap = ^(CHGInputAccessoryViewItem *item){
     NSLog(@"Tapped my item...");
