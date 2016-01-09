@@ -1,32 +1,35 @@
 //
-//  FOGTextInputKeyboardAccessoryView.h
-//  PinYa
+//  CHGInputAccessoryView.h
+//  Pods
 //
-//  Created by Christian on 15.09.15.
-//  Copyright (c) 2015 fog. All rights reserved.
+//  Created by Christian on 08.01.16.
+//
 //
 
 #import <UIKit/UIKit.h>
+
+#import "CHGInputAccessoryViewItem.h"
 
 @protocol CHGInputAccessoryViewDelegate <NSObject>
 
 @optional
 
-- (BOOL)willCancelWithText:(NSString *)text;
-- (BOOL)willReturnWithText:(NSString *)text;
-- (BOOL)willChangeText:(NSString *)text replaceText:(NSString *)replaceText charactersInRange:(NSRange)range;
+- (void)didTapItem:(CHGInputAccessoryViewItem *)item;
+- (void)didTapItemAtIndex:(NSUInteger)index;
 
 @end
 
-@interface CHGInputAccessoryView : UIView <UITextFieldDelegate>
+@interface CHGInputAccessoryView : UIToolbar
 
-@property (getter=isVisible) BOOL visible;
-@property (nonatomic, weak) id<CHGInputAccessoryViewDelegate> delegate;
+@property (nonatomic, weak) id<CHGInputAccessoryViewDelegate> inputAccessoryViewDelegate;
 
-@property (nonatomic, readonly, retain) UITextField *textField;
-@property (nonatomic, readonly, retain) UIButton *rightButton;
-@property (nonatomic, retain) UIButton *leftButton;
++ (id)inputAccessoryView;
++ (id)inputAccessoryViewWithHeight:(CGFloat)height;
 
-+ (CHGInputAccessoryView *)inputAccesoryViewWithHeigth:(CGFloat)height;
+- (void)addItem:(CHGInputAccessoryViewItem *)item animated:(BOOL)animated;
+- (void)addItem:(CHGInputAccessoryViewItem *)item atIndex:(NSUInteger)index animated:(BOOL)animated;
+
+- (void)removeItem:(CHGInputAccessoryViewItem *)item animated:(BOOL)animated;;
+- (void)removeItemAtIndex:(NSUInteger)index animated:(BOOL)animated;
 
 @end

@@ -2,122 +2,122 @@
 //  CHGViewController.m
 //  CHGInputAccessoryView
 //
-//  Created by Christian on 01/04/2016.
-//  Copyright (c) 2016 Christian. All rights reserved.
+//  Created by Christian on 08.01.16.
+//  Copyright © 2016 Christian. All rights reserved.
 //
 
 #import "CHGViewController.h"
 
-@interface CHGViewController ()
-
-@end
+#import "CHGView.h"
 
 @implementation CHGViewController {
-    UILabel *_label;
+    CHGInputAccessoryViewItemTextField *_textFieldItem;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"On View";
     
-    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccesoryViewWithHeigth:35.f];
+    UIButton *show = [[UIButton alloc] init];
+    [show setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [show setTitle:@"Show accessoryView!" forState:UIControlStateNormal];
+    [show sizeToFit];
+    [show addTarget:self action:@selector(didTapButton:) forControlEvents:UIControlEventTouchUpInside];
+    show.center = CGPointMake(self.view.center.x, 100);
+    [self.view addSubview:show];
     
-    accessoryView.delegate = self;
-    accessoryView.textField.placeholder = @"Enter your text...";
+    UIButton *showWithKeyboard = [[UIButton alloc] init];
+    [showWithKeyboard setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [showWithKeyboard setTitle:@"Show accessoryView with keyboard!" forState:UIControlStateNormal];
+    [showWithKeyboard sizeToFit];
+    [showWithKeyboard addTarget:self action:@selector(didTapButton:) forControlEvents:UIControlEventTouchUpInside];
+    showWithKeyboard.center = CGPointMake(self.view.center.x, 150);
+    showWithKeyboard.tag = 99;
+    [self.view addSubview:showWithKeyboard];
     
-    accessoryView.leftButton = [[UIButton alloc] init];
-    [accessoryView.leftButton setImage:[UIImage imageNamed:@"ic_trash"] forState:UIControlStateNormal];
-    [accessoryView.leftButton addTarget:self action:@selector(didTapAccessoryViewLeftButton:) forControlEvents:UIControlEventTouchUpInside];
+    UIButton *hide = [[UIButton alloc] init];
+    [hide setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [hide setTitle:@"Hide accessoryView!" forState:UIControlStateNormal];
+    [hide sizeToFit];
+    [hide addTarget:self action:@selector(didTapButton:) forControlEvents:UIControlEventTouchUpInside];
+    hide.center = CGPointMake(self.view.center.x, 200);
+    hide.tag = 98;
+    [self.view addSubview:hide];
     
-    ((CHGView *)self.view).inputAccessoryView = accessoryView;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"On Controller" style:UIBarButtonItemStylePlain target:self action:@selector(didTapButton:)];
     
-    self.inputAccessoryView = accessoryView;
-    
-    [self initButton];
-    [self initLabel];
+    [self prepareInputAccessoryView];
 }
 
-- (void)initButton
+- (void)prepareInputAccessoryView
 {
-    UIButton *button = [[UIButton alloc] init];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [button setTitle:@"Tap me!" forState:UIControlStateNormal];
-    [button sizeToFit];
+    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
     
-    [button addTarget:self action:@selector(didTapButton) forControlEvents:UIControlEventTouchUpInside];
+    accessoryView.inputAccessoryViewDelegate = self;
     
-    button.center = CGPointMake(self.view.center.x, 50);
+    CHGInputAccessoryViewItem *trashItem = [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_trash"]];
     
-    [self.view addSubview:button];
-}
-
-- (void)initLabel
-{
-    _label = [[UILabel alloc] init];
-    [_label setTextColor:[UIColor blackColor]];
+    trashItem.actionOnTap = ^(CHGInputAccessoryViewItem *item){
+        NSLog(@"Tapped trashItem...");
+    };
     
-    [self.view addSubview:_label];
+    CHGInputAccessoryViewItem *infoItem = [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_info"]];
+    infoItem.target = self;
+    infoItem.action = @selector(didTapInfoItem:);
+    
+    _textFieldItem = [CHGInputAccessoryViewItemTextField item];
+    _textFieldItem.textField.delegate = self;
+    
+    accessoryView.items = @[ trashItem,
+                             [CHGInputAccessoryViewItem separatorWithColor:[UIColor lightGrayColor] height:20.f],
+                             [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_search"]],
+                             _textFieldItem ];
+    
+    [accessoryView addItem:infoItem animated:NO];
+    
+    CHGView *view = (CHGView *)self.view;
+    view.inputAccessoryView = accessoryView;
 }
 
-- (void)updateLabelWithText:(NSString *)text
+- (void)didTapButton:(id)button
 {
-    [_label setText:text];
-    [_label sizeToFit];
-    _label.center = CGPointMake(self.view.center.x, 100);
-}
-
-#pragma mark - Actions
-
-- (BOOL)canBecomeFirstResponder {
-    return true;
-}
-
-- (void)didTapAccessoryViewLeftButton:(UIButton *)button
-{
-    [_label setText:@""];
-}
-
-- (void)didTapButton
-{
-    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
-    if (!accessoryView.isVisible) {
-        [self.view becomeFirstResponder];
-    } else {
-        [accessoryView.leftButton setImage:[UIImage imageNamed:@"ic_info"] forState:UIControlStateNormal];
+    if ([button isKindOfClass:[UIBarButtonItem class]]) {
+        [self performSegueWithIdentifier:@"dockedAccessoryView" sender:self];
+        return;
     }
     
-    [self.view becomeFirstResponder];
+    if (((UIButton *)button).tag == 98) {
+        [_textFieldItem.textField resignFirstResponder];
+        [((CHGView *)self.view) resignFirstResponder];
+        return;
+    }
+    
+    [((CHGView *)self.view) becomeFirstResponder];
+    
+    if (((UIButton *)button).tag == 99) {
+        [_textFieldItem.textField becomeFirstResponder];
+    }
+}
+
+- (void)didTapInfoItem:(CHGInputAccessoryViewItem *)item
+{
+    NSLog(@"Tapped infoItem...");
+    
+    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.inputAccessoryView;
+    
+    [accessoryView removeItem:item animated:YES];
 }
 
 #pragma mark - CHGInputAccessoryViewDelegate
 
-- (BOOL)willCancelWithText:(NSString *)text
+- (void)didTapItem:(CHGInputAccessoryViewItem *)item
 {
-    [self updateLabelWithText:text];
-    return YES;
+    NSLog(@"Tapped item...");
 }
 
-- (BOOL)willReturnWithText:(NSString *)text
+- (void)didTapItemAtIndex:(NSUInteger)index
 {
-    [self updateLabelWithText:text];
-    return YES;
-}
-
-- (BOOL)willChangeText:(NSString *)text replaceText:(NSString *)replaceText charactersInRange:(NSRange)range
-{
-    NSString *newText = [text stringByReplacingCharactersInRange:range withString:replaceText];
-    
-    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
-    if ([newText isEqualToString:@""]) {
-        [accessoryView.rightButton setTitle:@"Cancel" forState:UIControlStateNormal];
-    } else {
-        [accessoryView.rightButton setTitle:@"Done" forState:UIControlStateNormal];
-    }
-    
-    [self updateLabelWithText:newText];
-    
-    return YES;
+    NSLog(@"Tapped item at index %lu...", (unsigned long)index);
 }
 
 @end

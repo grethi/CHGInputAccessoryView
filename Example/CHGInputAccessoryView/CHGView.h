@@ -1,12 +1,10 @@
 //
 //  CHGView.h
-//  Pods
+//  CHGInputAccessoryView
 //
-//  Created by Christian on 05.01.16.
+//  Created by Christian on 08.01.16.
+//  Copyright © 2016 Christian. All rights reserved.
 //
-//
-
-#import "CHGInputAccessoryView.h"
 
 #import <UIKit/UIKit.h>
 

@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CHGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CHGAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CHGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CHGViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,6 +20,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AAD72B791C4025D800C9B978 /* CHGDockedAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */; };
+		AAD72B831C40636C00C9B978 /* CHGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B821C40636C00C9B978 /* CHGView.m */; };
+		AAD72B861C4064E100C9B978 /* CHGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B851C4064E100C9B978 /* CHGViewController.m */; };
 		BFB882DCA7D318EE2214BA1C /* Pods_CHGInputAccessoryView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88418161C8E6201F7D9804 /* Pods_CHGInputAccessoryView_Tests.framework */; };
 		DD38163B21EE5658238621E6 /* Pods_CHGInputAccessoryView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0433D22079D40067ADABFFC3 /* Pods_CHGInputAccessoryView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +50,6 @@
 		6003F59B195388D20070C39A /* CHGInputAccessoryView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CHGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CHGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CHGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CHGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CHGInputAccessoryView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGInputAccessoryView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +60,12 @@
 		7222FCB048322FC20D6C48E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		944F9F39977EACA52DD19AB7 /* CHGInputAccessoryView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHGInputAccessoryView.podspec; path = ../CHGInputAccessoryView.podspec; sourceTree = "<group>"; };
+		AAD72B771C4025D800C9B978 /* CHGDockedAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGDockedAccessoryViewController.h; sourceTree = "<group>"; };
+		AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGDockedAccessoryViewController.m; sourceTree = "<group>"; };
+		AAD72B811C40636C00C9B978 /* CHGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGView.h; sourceTree = "<group>"; };
+		AAD72B821C40636C00C9B978 /* CHGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGView.m; sourceTree = "<group>"; };
+		AAD72B841C4064E100C9B978 /* CHGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGViewController.h; sourceTree = "<group>"; };
+		AAD72B851C4064E100C9B978 /* CHGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGViewController.m; sourceTree = "<group>"; };
 		B6353C4018DAC8CA664951BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BCCF50AB523C8CD7CFF3FBFC /* Pods-CHGInputAccessoryView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGInputAccessoryView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHGInputAccessoryView_Tests/Pods-CHGInputAccessoryView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E507648E019C56FF0D6D17D7 /* Pods-CHGInputAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGInputAccessoryView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHGInputAccessoryView_Tests/Pods-CHGInputAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,10 +139,14 @@
 				6003F59C195388D20070C39A /* CHGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CHGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CHGViewController.h */,
-				6003F5A6195388D20070C39A /* CHGViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AAD72B811C40636C00C9B978 /* CHGView.h */,
+				AAD72B821C40636C00C9B978 /* CHGView.m */,
+				AAD72B771C4025D800C9B978 /* CHGDockedAccessoryViewController.h */,
+				AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */,
+				AAD72B841C4064E100C9B978 /* CHGViewController.h */,
+				AAD72B851C4064E100C9B978 /* CHGViewController.m */,
 			);
 			name = "Example for CHGInputAccessoryView";
 			path = CHGInputAccessoryView;
@@ -391,8 +401,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CHGAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CHGViewController.m in Sources */,
+				AAD72B861C4064E100C9B978 /* CHGViewController.m in Sources */,
+				AAD72B831C40636C00C9B978 /* CHGView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AAD72B791C4025D800C9B978 /* CHGDockedAccessoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
