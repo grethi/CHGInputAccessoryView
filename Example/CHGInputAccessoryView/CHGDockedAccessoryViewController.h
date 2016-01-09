@@ -23,7 +23,7 @@
 #import "CHGInputAccessoryView.h"
 #import "CHGInputAccessoryViewItemTextField.h"
 
-@interface CHGDockedAccessoryViewController : UIViewController <CHGInputAccessoryViewDelegate>
+@interface CHGDockedAccessoryViewController : UIViewController <CHGInputAccessoryViewDelegate, UITextFieldDelegate>
 
 @property (nonatomic, readwrite, retain) UIView *inputAccessoryView;
 

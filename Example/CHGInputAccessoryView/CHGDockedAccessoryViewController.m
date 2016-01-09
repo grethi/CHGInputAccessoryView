@@ -45,10 +45,13 @@
     infoItem.target = self;
     infoItem.action = @selector(didTapInfoItem:);
     
+    CHGInputAccessoryViewItemTextField *textFieldItem = [CHGInputAccessoryViewItemTextField item];
+    textFieldItem.textField.delegate = self;
+    
     accessoryView.items = @[ trashItem,
                              [CHGInputAccessoryViewItem separatorWithColor:[UIColor lightGrayColor] height:20.f],
                              [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_search"]],
-                             [CHGInputAccessoryViewItemTextField item] ];
+                             textFieldItem ];
     
     [accessoryView addItem:infoItem animated:NO];
     
@@ -77,6 +80,15 @@
 - (void)didTapItemAtIndex:(NSUInteger)index
 {
     NSLog(@"Tapped item at index %lu...", (unsigned long)index);
+}
+
+# pragma mark - UITextFieldDelegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self becomeFirstResponder];
+    
+    return YES;
 }
 
 @end
