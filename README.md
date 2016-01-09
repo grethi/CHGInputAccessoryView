@@ -6,6 +6,8 @@
 
 ## Usage
 
+![Screenshot of example CHGInputAccessoryView](example.gif)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
