@@ -44,8 +44,14 @@
 
 @interface CHGInputAccessoryView : UIToolbar
 
+/**
+ *  The accessory views delegate object.
+ */
 @property (nonatomic, weak) id<CHGInputAccessoryViewDelegate> inputAccessoryViewDelegate;
 
+/**
+ A boolean value indicating the views visibilty. Attention: the view is also visible while animating out of window.
+ */
 @property (readonly, getter=isVisible) BOOL visible;
 
 /**
@@ -59,6 +65,17 @@
  @param height specify a view height
  */
 + (id)inputAccessoryViewWithHeight:(CGFloat)height;
+
++ (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id<UITextFieldDelegate>)delegate;
+
+/**
+ *  Get item at specific index.
+ *
+ *  @param index items index
+ *
+ *  @return a item
+*/
+- (CHGInputAccessoryViewItem *)itemAtIndex:(NSUInteger)index;
 
 /**
  Adds an item to the right of the inputAccessoryView.
@@ -92,5 +109,33 @@
  @param animated    remove the item animated
  */
 - (void)removeItemAtIndex:(NSUInteger)index animated:(BOOL)animated;
+
+/**
+ *  Enable accessory view item.
+ *
+ *  @param item the item to enable
+ */
+- (void)enableItem:(CHGInputAccessoryViewItem *)item;
+
+/**
+ *  Enable accessory view item.
+ *
+ *  @param index the index of item to enable
+ */
+- (void)enableItemAtIndex:(NSUInteger)index;
+
+/**
+ *  Disable accessory view item.
+ *
+ *  @param item the item to disable
+ */
+- (void)disableItem:(CHGInputAccessoryViewItem *)item;
+
+/**
+ *  Disable accessory view item.
+ *
+ *  @param index the index of item to disable
+ */
+- (void)disableItemAtIndex:(NSUInteger)index;
 
 @end

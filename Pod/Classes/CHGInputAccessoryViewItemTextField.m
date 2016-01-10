@@ -50,4 +50,14 @@
     return self;
 }
 
+- (void)setEnabled:(BOOL)enabled
+{
+    [_textField setEnabled:enabled];
+}
+
+- (BOOL)isEnabled
+{
+    return _textField.isEnabled;
+}
+
 @end

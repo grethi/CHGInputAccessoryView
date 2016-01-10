@@ -31,38 +31,13 @@
 
 - (void)prepareInputAccessoryView
 {
-    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
+    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryViewTextFieldWithButtonTitle:@"Cancel" textFieldDelegate:self];
     
     accessoryView.inputAccessoryViewDelegate = self;
     
-    CHGInputAccessoryViewItem *trashItem = [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_trash"]];
-    
-    trashItem.actionOnTap = ^(CHGInputAccessoryViewItem *item){
-        NSLog(@"Tapped trashItem...");
-    };
-    
-    CHGInputAccessoryViewItem *infoItem = [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_info"]];
-    infoItem.target = self;
-    infoItem.action = @selector(didTapInfoItem:);
-    
-    CHGInputAccessoryViewItemTextField *textFieldItem = [CHGInputAccessoryViewItemTextField item];
-    textFieldItem.textField.delegate = self;
-    
-    accessoryView.items = @[ trashItem,
-                             [CHGInputAccessoryViewItem separatorWithColor:[UIColor lightGrayColor] height:20.f],
-                             [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"ic_search"]],
-                             textFieldItem ];
-    
-    [accessoryView addItem:infoItem animated:NO];
+    [accessoryView disableItemAtIndex:1];
     
     self.inputAccessoryView = accessoryView;
-}
-
-- (void)didTapInfoItem:(CHGInputAccessoryViewItem *)item
-{
-    NSLog(@"Tapped infoItem...");
-    
-    [((CHGInputAccessoryView *)self.inputAccessoryView) removeItem:item animated:YES];
 }
 
 - (BOOL)canBecomeFirstResponder
@@ -80,9 +55,23 @@
 - (void)didTapItemAtIndex:(NSUInteger)index
 {
     NSLog(@"Tapped item at index %lu...", (unsigned long)index);
+    
+    if (index == 1) {
+        
+        [((CHGInputAccessoryView *)self.inputAccessoryView) disableItemAtIndex:index];
+        
+        [self becomeFirstResponder];
+    }
 }
 
 # pragma mark - UITextFieldDelegate
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    [((CHGInputAccessoryView *)self.inputAccessoryView) enableItemAtIndex:1];
+    
+    return YES;
+}
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {

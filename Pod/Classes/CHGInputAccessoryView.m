@@ -20,6 +20,8 @@
 
 #import "CHGInputAccessoryView.h"
 
+#import "CHGInputAccessoryViewItemTextField.h"
+
 @implementation CHGInputAccessoryView
 
 + (id)inputAccessoryView
@@ -32,13 +34,25 @@
     return [[CHGInputAccessoryView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), height)];
 }
 
++ (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id)delegate
+{
+    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
+    
+    CHGInputAccessoryViewItemTextField *textFieldItem = [CHGInputAccessoryViewItemTextField item];
+    textFieldItem.textField.delegate = delegate;
+    
+    [accessoryView setItems:@[ textFieldItem,
+                               [CHGInputAccessoryViewItem buttonWithTitle:title] ]];
+    
+    return accessoryView;
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     
     if (self) {
         self.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth);
-        
     }
     
     return self;
@@ -47,6 +61,11 @@
 - (BOOL)isVisible
 {
     return self.superview ? YES : NO;
+}
+
+- (CHGInputAccessoryViewItem *)itemAtIndex:(NSUInteger)index
+{
+    return (CHGInputAccessoryViewItem *)[self.items objectAtIndex:index];
 }
 
 - (void)setItems:(NSArray<CHGInputAccessoryViewItem *> *)items
@@ -94,6 +113,28 @@
     NSArray *newItems = [NSArray arrayWithArray:items];
     
     [self setItems:newItems animated:animated];
+}
+
+- (void)enableItem:(CHGInputAccessoryViewItem *)item
+{
+    [item setEnabled:YES];
+}
+
+- (void)enableItemAtIndex:(NSUInteger)index
+{
+    CHGInputAccessoryViewItem *item = (CHGInputAccessoryViewItem *)[self.items objectAtIndex:index];
+    [self enableItem:item];
+}
+
+- (void)disableItem:(CHGInputAccessoryViewItem *)item
+{
+    [item setEnabled:NO];
+}
+
+- (void)disableItemAtIndex:(NSUInteger)index
+{
+    CHGInputAccessoryViewItem *item = (CHGInputAccessoryViewItem *)[self.items objectAtIndex:index];
+    [self disableItem:item];
 }
 
 - (void)didTapItem:(CHGInputAccessoryViewItem *)item

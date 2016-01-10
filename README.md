@@ -78,6 +78,15 @@ CHGInputAccessoryView has some prebuild items:
 ```objc
 [CHGInputAccessoryViewItem separatorWithColor:[UIColor lightGrayColor] height:20.f]
 ```
+#### Enable/Disable items
+
+```objc
+// enable item
+[accessoryView enableItem:item];
+
+// disable item
+[accessoryView disableItemAtIndex:1];
+```
 
 - a UITextField
 ```objc
