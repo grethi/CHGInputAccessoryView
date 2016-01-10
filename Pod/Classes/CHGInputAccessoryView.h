@@ -46,6 +46,8 @@
 
 @property (nonatomic, weak) id<CHGInputAccessoryViewDelegate> inputAccessoryViewDelegate;
 
+@property (readonly, getter=isVisible) BOOL visible;
+
 /**
  Builds a new inputAccessoryView.
 */

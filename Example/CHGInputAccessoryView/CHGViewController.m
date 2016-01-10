@@ -95,12 +95,17 @@
 {
     if ([button isKindOfClass:[UIBarButtonItem class]]) {
         [self performSegueWithIdentifier:@"dockedAccessoryView" sender:self];
+        
         return;
     }
     
     if (((UIButton *)button).tag == 98) {
         [_textFieldItem.textField resignFirstResponder];
         [((CHGView *)self.view) resignFirstResponder];
+        
+        CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
+        NSLog(@"%hhd", accessoryView.isVisible);
+        
         return;
     }
     
@@ -109,13 +114,16 @@
     if (((UIButton *)button).tag == 99) {
         [_textFieldItem.textField becomeFirstResponder];
     }
+    
+    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
+    NSLog(@"%hhd", accessoryView.isVisible);
 }
 
 - (void)didTapInfoItem:(CHGInputAccessoryViewItem *)item
 {
     NSLog(@"Tapped infoItem...");
     
-    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.inputAccessoryView;
+    CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
     
     [accessoryView removeItem:item animated:YES];
 }

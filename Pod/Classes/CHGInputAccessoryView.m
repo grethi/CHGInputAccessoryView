@@ -44,6 +44,11 @@
     return self;
 }
 
+- (BOOL)isVisible
+{
+    return self.superview ? YES : NO;
+}
+
 - (void)setItems:(NSArray<CHGInputAccessoryViewItem *> *)items
 {
     [self setItems:items animated:NO];
