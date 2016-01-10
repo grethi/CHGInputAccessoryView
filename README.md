@@ -125,7 +125,7 @@ item.actionOnTap = ^(CHGInputAccessoryViewItem *item){
 };
 ```
 
-### Add and remoce items
+### Add and remove items
 
 ```objc
 
