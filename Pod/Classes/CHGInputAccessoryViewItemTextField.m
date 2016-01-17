@@ -29,6 +29,14 @@
     return [[CHGInputAccessoryViewItemTextField alloc] initWithCustomView:[[UITextField alloc] init]];
 }
 
++ (CHGInputAccessoryViewItemTextField *)itemWithDelegate:(id<UITextFieldDelegate>)delegate
+{
+    CHGInputAccessoryViewItemTextField *item = [[CHGInputAccessoryViewItemTextField alloc] initWithCustomView:[[UITextField alloc] init]];
+    item.textField.delegate = delegate;
+    
+    return item;
+}
+
 - (id)initWithCustomView:(UIView *)customView
 {
     NSAssert([customView isKindOfClass:[UITextField class]], @"customView must be of class UITextField.");
@@ -52,6 +60,7 @@
 
 - (void)setEnabled:(BOOL)enabled
 {
+    [super setEnabled:enabled];
     [_textField setEnabled:enabled];
 }
 

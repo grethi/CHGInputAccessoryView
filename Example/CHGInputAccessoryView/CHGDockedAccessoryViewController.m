@@ -20,7 +20,9 @@
 
 #import "CHGDockedAccessoryViewController.h"
 
-@implementation CHGDockedAccessoryViewController
+@implementation CHGDockedAccessoryViewController {
+    CHGInputAccessoryView *_accessoryView;
+}
 
 - (void)viewDidLoad
 {
@@ -31,18 +33,30 @@
 
 - (void)prepareInputAccessoryView
 {
-    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryViewTextFieldWithButtonTitle:@"Cancel" textFieldDelegate:self];
+    _accessoryView = [CHGInputAccessoryView inputAccessoryViewTextViewWithButtonTitle:@"Cancel" textViewDelegate:self];
     
-    accessoryView.inputAccessoryViewDelegate = self;
+    _accessoryView.inputAccessoryViewDelegate = self;
     
-    [accessoryView disableItemAtIndex:1];
+    [_accessoryView disableItemAtIndex:1];
     
-    self.inputAccessoryView = accessoryView;
+    self.inputAccessoryView = _accessoryView;
 }
 
 - (BOOL)canBecomeFirstResponder
 {
     return YES;
+}
+
+- (BOOL)becomeFirstResponder
+{
+    [_accessoryView resizeToHeight:_accessoryView.defaultHeight];
+    return [super becomeFirstResponder];
+}
+
+- (BOOL)resignFirstResponder
+{
+    [_accessoryView updateHeight];
+    return [super resignFirstResponder];
 }
 
 #pragma mark - CHGInputAccessoryViewDelegate
@@ -58,22 +72,27 @@
     
     if (index == 1) {
         
-        [((CHGInputAccessoryView *)self.inputAccessoryView) disableItemAtIndex:index];
+        [_accessoryView disableItemAtIndex:index];
         
         [self becomeFirstResponder];
     }
 }
 
-# pragma mark - UITextFieldDelegate
+# pragma mark - UITextViewDelegate
 
-- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    [((CHGInputAccessoryView *)self.inputAccessoryView) enableItemAtIndex:1];
+    return YES;
+}
+
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    [_accessoryView enableItemAtIndex:1];
     
     return YES;
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView
 {
     [self becomeFirstResponder];
     

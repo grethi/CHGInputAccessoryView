@@ -69,7 +69,7 @@ CHGInputAccessoryView has some prebuild items:
 [CHGInputAccessoryViewItem buttonWithTitle:@"my title"];
 ```
 
-- a button with imgage
+- a button with image
 ```objc
 [CHGInputAccessoryViewItem buttonWithImage:[UIImage imageNamed:@"my_image"]];
 ```
@@ -78,6 +78,24 @@ CHGInputAccessoryView has some prebuild items:
 ```objc
 [CHGInputAccessoryViewItem separatorWithColor:[UIColor lightGrayColor] height:20.f]
 ```
+- a UITextField
+```objc
+CHGInputAccessoryViewItemTextField *item = [CHGInputAccessoryViewItemTextField item];
+item.textField.placeholder = @"Enter your text";
+```
+- a UITextView
+```objc
+CHGInputAccessoryViewItemTextField *item = [CHGInputAccessoryViewItemTextField item];
+item.textField.placeholder = @"Enter your text";
+```
+Tip: Modify the textField or textView by accessing CHGInputAccessoryViewItemTextField/TextView property textField/textView. The textField/textView will automatically resize to the maximum availabe width. The textView also resizes automatically to maximum available height. If you want a fixed size for your textField/textView assign a frame on it and set the CHGInputAccessoryViewItem property flexibleSize to NO.
+
+- a flexible or fixed space
+```objc
+[CHGInputAccessoryViewItemTextField flexibleSpace];
+[CHGInputAccessoryViewItemTextField fixedSpace:25.f];
+```
+
 #### Enable/Disable items
 
 ```objc
@@ -88,24 +106,11 @@ CHGInputAccessoryView has some prebuild items:
 [accessoryView disableItemAtIndex:1];
 ```
 
-- a UITextField
-```objc
-CHGInputAccessoryViewItemTextField *item = [CHGInputAccessoryViewItemTextField item];
-item.textField.placeholder = @"Enter your text";
-```
-Tip: Modify the textField by accessing CHGInputAccessoryViewItemTextField property textField. The textField will automatically resize to the maximum availabe space. If you want a fixed size for your textField assign a frame on it and set the CHGInputAccessoryViewItem property flexibleSize to NO.
-
-- a flexible or fixed space
-```objc
-[CHGInputAccessoryViewItemTextField flexibleSpace];
-[CHGInputAccessoryViewItemTextField fixedSpace:25.f];
-```
-
 ### Actions
 
 - InputAccssoryViewDelegate
 
-To use the build in delegates (didTapItem: and didTapItemAtIndex:) assign a CHGInputAccessoryViewDelegate.
+To use the build-in delegates (didTapItem: and didTapItemAtIndex:) assign a CHGInputAccessoryViewDelegate.
 
 ```objc
 accessoryView.inputAccessoryViewDelegate = self;

@@ -16,6 +16,8 @@
 		5347D07FB62A6ECB413BDD47972D9619 /* CHGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE279F8245DCDB89B0340A52D5E5DE /* CHGInputAccessoryView.m */; };
 		84292B3106FC616883212DF719175E7C /* CHGInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */; };
 		9621AFEC5658D639EDD55A01CCA1D6BC /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAF31A81C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAF31A61C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h */; };
+		AAAF31A91C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF31A71C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m */; };
 		AEB48F8F166C2776A5B154528488C934 /* CHGInputAccessoryViewItemTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BD00EFA4A30B22AEDE38831E36E482 /* CHGInputAccessoryViewItemTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B17AAFC3F70F8C98A8177723EBE7891D /* CHGInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 164A14E6FDD5056EC382B0739AEB0738 /* CHGInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC3CD1AA1B46C72E45AEA436CA9773FA /* CHGInputAccessoryViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 909C8EBBBD391C30492AAD7D64A600DB /* CHGInputAccessoryViewItem.m */; };
@@ -75,6 +77,8 @@
 		9FC5F8143F1B511D0C272C2E071D5022 /* Pods-CHGInputAccessoryView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A4DB9452A619D11B5BFA92AE73781AE5 /* Pods-CHGInputAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A505F76C2ACE908B8304C708E0B37DCC /* CHGInputAccessoryViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItem.h; sourceTree = "<group>"; };
+		AAAF31A61C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemTextView.h; sourceTree = "<group>"; };
+		AAAF31A71C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemTextView.m; sourceTree = "<group>"; };
 		ABBE279F8245DCDB89B0340A52D5E5DE /* CHGInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryView.m; sourceTree = "<group>"; };
 		B7EBF4280071B800FD09C4B932F81936 /* Pods-CHGInputAccessoryView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGInputAccessoryView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -233,6 +237,8 @@
 				909C8EBBBD391C30492AAD7D64A600DB /* CHGInputAccessoryViewItem.m */,
 				77BD00EFA4A30B22AEDE38831E36E482 /* CHGInputAccessoryViewItemTextField.h */,
 				568E17B79608C061CFB64E8C162F6EFD /* CHGInputAccessoryViewItemTextField.m */,
+				AAAF31A61C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h */,
+				AAAF31A71C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAF31A81C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h in Headers */,
 				ED22CC175DBE6C835B6A00E872005544 /* CHGInputAccessoryView-umbrella.h in Headers */,
 				B17AAFC3F70F8C98A8177723EBE7891D /* CHGInputAccessoryView.h in Headers */,
 				3FE3055FB3C8CA91819C17E9C071BAE4 /* CHGInputAccessoryViewItem.h in Headers */,
@@ -437,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAF31A91C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m in Sources */,
 				84292B3106FC616883212DF719175E7C /* CHGInputAccessoryView-dummy.m in Sources */,
 				5347D07FB62A6ECB413BDD47972D9619 /* CHGInputAccessoryView.m in Sources */,
 				BC3CD1AA1B46C72E45AEA436CA9773FA /* CHGInputAccessoryViewItem.m in Sources */,

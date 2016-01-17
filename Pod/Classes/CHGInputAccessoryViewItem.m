@@ -44,6 +44,13 @@
     return button;
 }
 
++ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title
+{
+    CHGInputAccessoryViewItem *button = [[CHGInputAccessoryViewItem alloc] initWithTitle:title style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    return button;
+}
+
 + (CHGInputAccessoryViewItem *)separatorWithColor:(UIColor *)color height:(CGFloat)height
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1.f, height)];
@@ -54,11 +61,18 @@
     return separator;
 }
 
-+ (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title
+- (CGFloat)preferredHeight
 {
-    CHGInputAccessoryViewItem *button = [[CHGInputAccessoryViewItem alloc] initWithTitle:title style:UIBarButtonItemStylePlain target:nil action:nil];
+    return 0.f;
+}
+
+- (void)resizeToHeight:(CGFloat)height
+{
+    if (!self.customView) return;
     
-    return button;
+    CGRect frame = self.customView.frame;
+    frame.size.height = height;
+    self.customView.frame = frame;
 }
 
 @end

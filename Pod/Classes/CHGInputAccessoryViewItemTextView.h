@@ -18,27 +18,25 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <CHGInputAccessoryView/CHGInputAccessoryView.h>
 
-#import "CHGInputAccessoryViewItem.h"
-
-@interface CHGInputAccessoryViewItemTextField : CHGInputAccessoryViewItem
+@interface CHGInputAccessoryViewItemTextView : CHGInputAccessoryViewItem
 
 /**
  The textField of this item.
-*/
-@property (nonatomic, readonly, retain) UITextField *textField;
+ */
+@property (nonatomic, readonly, retain) UITextView *textView;
 
 /**
  Builds a new item with a textField.
-*/
-+ (CHGInputAccessoryViewItemTextField *)item;
+ */
++ (CHGInputAccessoryViewItemTextView *)item;
 
 /**
  Builds a new item with a textField.
  
  @param delegate the UITextFieldDelegate
  */
-+ (CHGInputAccessoryViewItemTextField *)itemWithDelegate:(id<UITextFieldDelegate>)delegate;
++ (CHGInputAccessoryViewItemTextView *)itemWithDelegate:(id<UITextViewDelegate>)delegate;
 
 @end

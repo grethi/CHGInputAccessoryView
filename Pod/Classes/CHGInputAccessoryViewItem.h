@@ -66,4 +66,18 @@
 */
 + (CHGInputAccessoryViewItem *)buttonWithTitle:(NSString *)title;
 
+/**
+ *  The preferred item height. Used to resize the InputAccessoryView height.
+ *
+ *  @return the preffered height for this item - Default: 0px (no resizing)
+ */
+- (CGFloat)preferredHeight;
+
+/**
+ *  Resizes a item to a new height.
+ *
+ *  @param height the new height.
+*/
+- (void)resizeToHeight:(CGFloat)height;
+
 @end

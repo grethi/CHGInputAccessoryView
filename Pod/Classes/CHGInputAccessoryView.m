@@ -21,8 +21,11 @@
 #import "CHGInputAccessoryView.h"
 
 #import "CHGInputAccessoryViewItemTextField.h"
+#import "CHGInputAccessoryViewItemTextView.h"
 
-@implementation CHGInputAccessoryView
+@implementation CHGInputAccessoryView {
+    CGFloat _itemMargin;
+}
 
 + (id)inputAccessoryView
 {
@@ -34,7 +37,7 @@
     return [[CHGInputAccessoryView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), height)];
 }
 
-+ (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id)delegate
++ (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id<UITextFieldDelegate>)delegate
 {
     CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
     
@@ -47,15 +50,38 @@
     return accessoryView;
 }
 
++ (id)inputAccessoryViewTextViewWithButtonTitle:(NSString *)title textViewDelegate:(id<UITextViewDelegate>)delegate
+{
+    CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryViewWithHeight:46.f];
+    
+    CHGInputAccessoryViewItemTextView *textViewItem = [CHGInputAccessoryViewItemTextView item];
+    textViewItem.textView.delegate = delegate;
+    
+    [accessoryView setItems:@[ textViewItem,
+                               [CHGInputAccessoryViewItem buttonWithTitle:title] ]];
+    
+    return accessoryView;
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     
     if (self) {
         self.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth);
+        
+        self.defaultHeight = CGRectGetHeight(frame);
+        self.maxHeight = 150.f;
+        
+        _itemMargin = 8.f;
     }
     
     return self;
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (BOOL)isVisible
@@ -137,6 +163,78 @@
     [self disableItem:item];
 }
 
+- (void)updateHeight
+{
+    CGFloat newHeight = [self maxItemHeight] + 2 * _itemMargin;
+    
+    if (newHeight > CGRectGetHeight(self.frame)) {
+        if (newHeight > self.maxHeight) newHeight = self.maxHeight;
+        [self resizeToHeight:newHeight];
+        return;
+    }
+    
+    if (newHeight < CGRectGetHeight(self.frame)) {
+        if (newHeight < self.defaultHeight) newHeight = self.defaultHeight;
+        [self resizeToHeight:newHeight];
+        return;
+    }
+}
+
+- (void)resizeToHeight:(CGFloat)height
+{
+    for (NSLayoutConstraint *constraint in [self constraints]) {
+        if (constraint.firstAttribute == NSLayoutAttributeHeight) {
+            constraint.constant = height;
+            [self layoutSubviews];
+            break;
+        }
+    }
+}
+
+- (void)layoutSubviews
+{
+    NSMutableArray *flexibleSizeItems = [[NSMutableArray alloc] init];
+    CGFloat itemWidth = 0.f;
+    CGFloat itemMargin = _itemMargin * 2;
+    for (UIBarButtonItem *item in self.items) {
+        if ([item isKindOfClass:[CHGInputAccessoryViewItem class]]) {
+            if (((CHGInputAccessoryViewItem *)item).flexibleSize) {
+                [flexibleSizeItems addObject:item];
+            } else {
+                UIView *itemView = [item valueForKey:@"view"];
+                itemWidth += CGRectGetWidth(itemView.frame) + itemMargin;
+            }
+        }
+    }
+    
+    if (flexibleSizeItems.count > 0) {
+        CGFloat flexItemWidth = (CGRectGetWidth(self.frame) - itemWidth) / flexibleSizeItems.count - itemMargin;
+        
+        for (CHGInputAccessoryViewItem *item in flexibleSizeItems) {
+            CGRect frame = item.customView.frame;
+            frame.size.width = flexItemWidth;
+            item.customView.frame = frame;
+            
+            [item resizeToHeight:(CGRectGetHeight(self.bounds) - 2 * _itemMargin)];
+        }
+    }
+    
+    [super layoutSubviews];
+}
+
+#pragma mark - pivate
+
+- (CGFloat)maxItemHeight
+{
+    CGFloat height = 0.f;
+    
+    for (CHGInputAccessoryViewItem *item in self.items) {
+        if (item.preferredHeight > height) height = item.preferredHeight;
+    }
+    
+    return height;
+}
+
 - (void)didTapItem:(CHGInputAccessoryViewItem *)item
 {
     if (item.actionOnTap) {
@@ -152,33 +250,6 @@
         NSUInteger index = [self.items indexOfObject:item];
         [self.inputAccessoryViewDelegate didTapItemAtIndex:index];
     }
-}
-
-- (void)layoutSubviews
-{
-    NSMutableArray *flexibleWidthItems = [[NSMutableArray alloc] init];
-    CGFloat itemWidth = 0.f;
-    CGFloat itemMargin = 16.f;
-    for (UIBarButtonItem *item in self.items) {
-        if ([item isKindOfClass:[CHGInputAccessoryViewItem class]]) {
-            if (((CHGInputAccessoryViewItem *)item).flexibleSize) {
-                [flexibleWidthItems addObject:item];
-            } else {
-                UIView *itemView = [item valueForKey:@"view"];
-                itemWidth += CGRectGetWidth(itemView.bounds) + itemMargin;
-            }
-        }
-    }
-    
-    if (flexibleWidthItems.count > 0) {
-        CGFloat flexItemWidth = (CGRectGetWidth(self.bounds) - itemWidth) / flexibleWidthItems.count - itemMargin;
-        
-        for (CHGInputAccessoryViewItem *item in flexibleWidthItems) {
-            item.customView.frame = CGRectMake(0, 0, flexItemWidth, CGRectGetHeight(self.bounds) - itemMargin);
-        }
-    }
-    
-    [super layoutSubviews];
 }
 
 @end

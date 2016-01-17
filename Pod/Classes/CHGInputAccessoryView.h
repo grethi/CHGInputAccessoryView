@@ -54,6 +54,10 @@
  */
 @property (readonly, getter=isVisible) BOOL visible;
 
+@property (nonatomic) CGFloat defaultHeight;
+@property (nonatomic) CGFloat maxHeight;
+
+
 /**
  Builds a new inputAccessoryView.
 */
@@ -67,6 +71,8 @@
 + (id)inputAccessoryViewWithHeight:(CGFloat)height;
 
 + (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id<UITextFieldDelegate>)delegate;
+
++ (id)inputAccessoryViewTextViewWithButtonTitle:(NSString *)title textViewDelegate:(id<UITextViewDelegate>)delegate;
 
 /**
  *  Get item at specific index.
@@ -137,5 +143,18 @@
  *  @param index the index of item to disable
  */
 - (void)disableItemAtIndex:(NSUInteger)index;
+
+/**
+ *  Changes InputAccessoryView height.
+ *
+ *  @param height   new InputAccessoryViews height
+ *  @param animated animate the change
+ */
+- (void)resizeToHeight:(CGFloat)height;
+
+/**
+ *  Re-Calculates the InputAccessoryViews height depending on items preferred heigt.
+ */
+- (void)updateHeight;
 
 @end
