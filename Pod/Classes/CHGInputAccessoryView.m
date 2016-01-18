@@ -24,6 +24,7 @@
 #import "CHGInputAccessoryViewItemTextView.h"
 
 @implementation CHGInputAccessoryView {
+    UIProgressView *_progressView;
     CGFloat _itemMargin;
 }
 
@@ -82,6 +83,17 @@
 - (void)dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (UIProgressView *)progressView
+{
+    if (!_progressView) {
+        _progressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 1)];
+        _progressView.progressViewStyle = UIProgressViewStyleBar;
+        [self addSubview:_progressView];
+    }
+    
+    return _progressView;
 }
 
 - (BOOL)isVisible

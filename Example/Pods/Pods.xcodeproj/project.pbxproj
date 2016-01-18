@@ -233,6 +233,14 @@
 			children = (
 				164A14E6FDD5056EC382B0739AEB0738 /* CHGInputAccessoryView.h */,
 				ABBE279F8245DCDB89B0340A52D5E5DE /* CHGInputAccessoryView.m */,
+				AA4277671C4D5EB2002100CC /* Items */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AA4277671C4D5EB2002100CC /* Items */ = {
+			isa = PBXGroup;
+			children = (
 				A505F76C2ACE908B8304C708E0B37DCC /* CHGInputAccessoryViewItem.h */,
 				909C8EBBBD391C30492AAD7D64A600DB /* CHGInputAccessoryViewItem.m */,
 				77BD00EFA4A30B22AEDE38831E36E482 /* CHGInputAccessoryViewItemTextField.h */,
@@ -240,7 +248,7 @@
 				AAAF31A61C45A40400F13743 /* CHGInputAccessoryViewItemTextView.h */,
 				AAAF31A71C45A40400F13743 /* CHGInputAccessoryViewItemTextView.m */,
 			);
-			path = Classes;
+			name = Items;
 			sourceTree = "<group>";
 		};
 		B9F71A7CB0419418579535566C45A9FD /* Products */ = {

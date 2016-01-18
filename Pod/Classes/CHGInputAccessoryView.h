@@ -54,9 +54,20 @@
  */
 @property (readonly, getter=isVisible) BOOL visible;
 
+/**
+ *  InputAccessoryView default height
+ */
 @property (nonatomic) CGFloat defaultHeight;
+
+/**
+ *  InputAccessoryView maximum height
+ */
 @property (nonatomic) CGFloat maxHeight;
 
+/**
+ *  A finite progress view to show above the InputAccessoryView
+ */
+@property (readonly, nonatomic) UIProgressView *progressView;
 
 /**
  Builds a new inputAccessoryView.
