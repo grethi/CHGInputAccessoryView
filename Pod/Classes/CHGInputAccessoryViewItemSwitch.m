@@ -18,12 +18,49 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
-
 #import "CHGInputAccessoryView.h"
+#import "CHGInputAccessoryViewItemSwitch.h"
 
-@interface CHGDockedAccessoryViewController : UIViewController <CHGInputAccessoryViewDelegate, UITextViewDelegate>
+@implementation CHGInputAccessoryViewItemSwitch
 
-@property (nonatomic, readwrite, retain) UIView *inputAccessoryView;
+@synthesize switchView = _switchView;
+
++ (CHGInputAccessoryViewItemSwitch *)item
+{
+    return [[CHGInputAccessoryViewItemSwitch alloc] initWithCustomView:[[UISwitch alloc] init]];
+}
+
+- (id)initWithCustomView:(UIView *)customView
+{
+    NSAssert([customView isKindOfClass:[UISwitch class]], @"customView must be of class UISwitch.");
+    
+    self = [super initWithCustomView:customView];
+    
+    if (self) {
+        
+        _switchView = (UISwitch *)customView;
+        [_switchView addTarget:self action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
+    }
+    
+    return self;
+}
+
+- (void)valueChanged:(UISwitch *)switchView
+{
+    if ([self.target respondsToSelector:self.action]) {
+        [self.target performSelector:self.action withObject:self afterDelay:0.f];
+    }
+}
+
+- (void)setEnabled:(BOOL)enabled
+{
+    [super setEnabled:enabled];
+    [_switchView setEnabled:enabled];
+}
+
+- (BOOL)isEnabled
+{
+    return _switchView.isEnabled;
+}
 
 @end

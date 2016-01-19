@@ -18,10 +18,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="VUv-hP-Cfc" kind="show" identifier="moreAccessoryView" id="21A-Zq-l00"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1874" y="1139"/>
+        </scene>
+        <!--More View Controller-->
+        <scene sceneID="hrd-cL-QLk">
+            <objects>
+                <viewController id="VUv-hP-Cfc" customClass="CHGMoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FGk-el-58T"/>
+                        <viewControllerLayoutGuide type="bottom" id="8WQ-1z-QW1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iSd-lk-gdD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-37-djF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634" y="1139"/>
         </scene>
         <!--Accessory View Controller-->
         <scene sceneID="o2u-Q2-fCa">

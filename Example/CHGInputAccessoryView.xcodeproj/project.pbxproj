@@ -20,6 +20,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AA42776E1C4ECD97002100CC /* CHGMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA42776D1C4ECD97002100CC /* CHGMoreViewController.m */; };
 		AAD72B791C4025D800C9B978 /* CHGDockedAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */; };
 		AAD72B831C40636C00C9B978 /* CHGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B821C40636C00C9B978 /* CHGView.m */; };
 		AAD72B861C4064E100C9B978 /* CHGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD72B851C4064E100C9B978 /* CHGViewController.m */; };
@@ -60,6 +61,8 @@
 		7222FCB048322FC20D6C48E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		944F9F39977EACA52DD19AB7 /* CHGInputAccessoryView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHGInputAccessoryView.podspec; path = ../CHGInputAccessoryView.podspec; sourceTree = "<group>"; };
+		AA42776C1C4ECD97002100CC /* CHGMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGMoreViewController.h; sourceTree = "<group>"; };
+		AA42776D1C4ECD97002100CC /* CHGMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGMoreViewController.m; sourceTree = "<group>"; };
 		AAD72B771C4025D800C9B978 /* CHGDockedAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGDockedAccessoryViewController.h; sourceTree = "<group>"; };
 		AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGDockedAccessoryViewController.m; sourceTree = "<group>"; };
 		AAD72B811C40636C00C9B978 /* CHGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGView.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				AAD72B781C4025D800C9B978 /* CHGDockedAccessoryViewController.m */,
 				AAD72B841C4064E100C9B978 /* CHGViewController.h */,
 				AAD72B851C4064E100C9B978 /* CHGViewController.m */,
+				AA42776C1C4ECD97002100CC /* CHGMoreViewController.h */,
+				AA42776D1C4ECD97002100CC /* CHGMoreViewController.m */,
 			);
 			name = "Example for CHGInputAccessoryView";
 			path = CHGInputAccessoryView;
@@ -402,6 +407,7 @@
 			files = (
 				6003F59E195388D20070C39A /* CHGAppDelegate.m in Sources */,
 				AAD72B861C4064E100C9B978 /* CHGViewController.m in Sources */,
+				AA42776E1C4ECD97002100CC /* CHGMoreViewController.m in Sources */,
 				AAD72B831C40636C00C9B978 /* CHGView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				AAD72B791C4025D800C9B978 /* CHGDockedAccessoryViewController.m in Sources */,

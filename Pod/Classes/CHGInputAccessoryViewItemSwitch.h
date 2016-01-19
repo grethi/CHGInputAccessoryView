@@ -18,12 +18,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "CHGInputAccessoryViewItem.h"
 
-#import "CHGInputAccessoryView.h"
+@interface CHGInputAccessoryViewItemSwitch : CHGInputAccessoryViewItem
 
-@interface CHGDockedAccessoryViewController : UIViewController <CHGInputAccessoryViewDelegate, UITextViewDelegate>
+/**
+ The UISwitch of this item.
+ */
+@property (nonatomic, readonly, retain) UISwitch *switchView;
 
-@property (nonatomic, readwrite, retain) UIView *inputAccessoryView;
+/**
+ Builds a new item with a textField.
+ */
++ (CHGInputAccessoryViewItemSwitch *)item;
 
 @end

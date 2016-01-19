@@ -28,6 +28,8 @@
 {
     self.title = @"On Controller";
     
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"More" style:UIBarButtonItemStylePlain target:self action:@selector(didTapButton:)];
+    
     [self prepareInputAccessoryView];
 }
 
@@ -57,6 +59,15 @@
 {
     [_accessoryView updateHeight];
     return [super resignFirstResponder];
+}
+
+- (void)didTapButton:(id)button
+{
+    if ([button isKindOfClass:[UIBarButtonItem class]]) {
+        [self performSegueWithIdentifier:@"moreAccessoryView" sender:self];
+        
+        return;
+    }
 }
 
 #pragma mark - CHGInputAccessoryViewDelegate

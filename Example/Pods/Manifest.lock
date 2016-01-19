@@ -1,5 +1,5 @@
 PODS:
-  - CHGInputAccessoryView (0.1.0)
+  - CHGInputAccessoryView (1.1.0)
 
 DEPENDENCIES:
   - CHGInputAccessoryView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHGInputAccessoryView: 6c7967c985d9fec55ce8cd7364b4b37043c0604f
+  CHGInputAccessoryView: e8c7d798b94a55f5aa84b484f1ae9c6123042dd0
 
 COCOAPODS: 0.39.0

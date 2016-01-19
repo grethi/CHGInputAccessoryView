@@ -20,9 +20,7 @@
 
 #import "CHGInputAccessoryViewItemTextView.h"
 
-@implementation CHGInputAccessoryViewItemTextView {
-    NSLayoutConstraint *_heightConstraint;
-}
+@implementation CHGInputAccessoryViewItemTextView
 
 @synthesize textView = _textView;
 

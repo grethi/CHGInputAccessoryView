@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## CHGInputAccessoryView
 
-Copyright (c) 2016 Christian <greth.christian@googlemail.com>
+Copyright (c) 2016 Christian Greth <greth.christian@googlemail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

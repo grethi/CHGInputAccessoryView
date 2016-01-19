@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CHGInputAccessoryView"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Simply build an inputAccessoryView to show above a keyboard."
   s.description      = <<-DESC
 This pod will help to build an inputAccessoryView as simple and fast as possible. The CHGInputAccessoryView is based on UIToolbar with all its advantages and has some prebuild items like a separator, a textfield, a TextView or flexible and fixed spaces.
