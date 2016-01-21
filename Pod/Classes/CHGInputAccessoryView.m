@@ -41,42 +41,42 @@
 + (id)inputAccessoryViewTextFieldWithButtonTitle:(NSString *)title textFieldDelegate:(id<UITextFieldDelegate>)delegate
 {
     CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
-    
+
     CHGInputAccessoryViewItemTextField *textFieldItem = [CHGInputAccessoryViewItemTextField item];
     textFieldItem.textField.delegate = delegate;
-    
+
     [accessoryView setItems:@[ textFieldItem,
                                [CHGInputAccessoryViewItem buttonWithTitle:title] ]];
-    
+
     return accessoryView;
 }
 
 + (id)inputAccessoryViewTextViewWithButtonTitle:(NSString *)title textViewDelegate:(id<UITextViewDelegate>)delegate
 {
     CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryViewWithHeight:46.f];
-    
+
     CHGInputAccessoryViewItemTextView *textViewItem = [CHGInputAccessoryViewItemTextView item];
     textViewItem.textView.delegate = delegate;
-    
+
     [accessoryView setItems:@[ textViewItem,
                                [CHGInputAccessoryViewItem buttonWithTitle:title] ]];
-    
+
     return accessoryView;
 }
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
-    
+
     if (self) {
         self.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth);
-        
+
         self.defaultHeight = CGRectGetHeight(frame);
         self.maxHeight = 150.f;
-        
+
         _itemMargin = 8.f;
     }
-    
+
     return self;
 }
 
@@ -92,7 +92,7 @@
         _progressView.progressViewStyle = UIProgressViewStyleBar;
         [self addSubview:_progressView];
     }
-    
+
     return _progressView;
 }
 
@@ -119,7 +119,7 @@
             item.action = @selector(didTapItem:);
         }
     }
-    
+
     [super setItems:items animated:animated];
 }
 
@@ -132,9 +132,9 @@
 {
     NSMutableArray *items = [self.items mutableCopy];
     [items insertObject:item atIndex:index];
-    
+
     NSArray *newItems = [NSArray arrayWithArray:items];
-    
+
     [self setItems:newItems animated:animated];
 }
 
@@ -147,9 +147,9 @@
 {
     NSMutableArray *items = [self.items mutableCopy];
     [items removeObjectAtIndex:index];
-    
+
     NSArray *newItems = [NSArray arrayWithArray:items];
-    
+
     [self setItems:newItems animated:animated];
 }
 
@@ -178,13 +178,13 @@
 - (void)updateHeight
 {
     CGFloat newHeight = [self maxItemHeight] + 2 * _itemMargin;
-    
+
     if (newHeight > CGRectGetHeight(self.frame)) {
         if (newHeight > self.maxHeight) newHeight = self.maxHeight;
         [self resizeToHeight:newHeight];
         return;
     }
-    
+
     if (newHeight < CGRectGetHeight(self.frame)) {
         if (newHeight < self.defaultHeight) newHeight = self.defaultHeight;
         [self resizeToHeight:newHeight];
@@ -215,22 +215,30 @@
             } else {
                 UIView *itemView = [item valueForKey:@"view"];
                 itemWidth += CGRectGetWidth(itemView.frame) + itemMargin;
+                // align a custom view
+                /*
+                if (item.customView) {
+                    CGRect frame = item.customView.frame;
+                    frame.origin.y = CGRectGetHeight(self.bounds) - CGRectGetHeight(frame) - _itemMargin;
+                    item.customView.frame = frame;
+                }
+                */
             }
         }
     }
-    
+
     if (flexibleSizeItems.count > 0) {
         CGFloat flexItemWidth = (CGRectGetWidth(self.frame) - itemWidth) / flexibleSizeItems.count - itemMargin;
-        
+
         for (CHGInputAccessoryViewItem *item in flexibleSizeItems) {
             CGRect frame = item.customView.frame;
             frame.size.width = flexItemWidth;
             item.customView.frame = frame;
-            
-            [item resizeToHeight:(CGRectGetHeight(self.bounds) - 2 * _itemMargin)];
+
+            [item resizeToHeight:(CGRectGetHeight(self.bounds) - itemMargin)];
         }
     }
-    
+
     [super layoutSubviews];
 }
 
@@ -239,11 +247,11 @@
 - (CGFloat)maxItemHeight
 {
     CGFloat height = 0.f;
-    
+
     for (CHGInputAccessoryViewItem *item in self.items) {
         if (item.preferredHeight > height) height = item.preferredHeight;
     }
-    
+
     return height;
 }
 
@@ -252,13 +260,13 @@
     if (item.actionOnTap) {
         item.actionOnTap(item);
     }
-    
+
     if ([self.inputAccessoryViewDelegate respondsToSelector:@selector(didTapItem:)]) {
         [self.inputAccessoryViewDelegate didTapItem:item];
     }
-    
+
     if ([self.inputAccessoryViewDelegate respondsToSelector:@selector(didTapItemAtIndex:)]) {
-        
+
         NSUInteger index = [self.items indexOfObject:item];
         [self.inputAccessoryViewDelegate didTapItemAtIndex:index];
     }

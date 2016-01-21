@@ -47,7 +47,7 @@ Setting up an new CHGInputAccessoryView is as simple as setting up a UIToolbar.
 // get an instance of CHGInputAccessoryView
 CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
 
-// optionaly define a delegate
+// optionally define a delegate
 accessoryView.inputAccessoryViewDelegate = self;
 
 // create a CHGInputAccessoryViewItem
@@ -89,7 +89,17 @@ CHGInputAccessoryViewItemTextField *item = [CHGInputAccessoryViewItemTextField i
 item.textField.placeholder = @"Enter your text";
 ```
 Tip: Modify the textField or textView by accessing CHGInputAccessoryViewItemTextField/TextView property textField/textView. The textField/textView will automatically resize to the maximum availabe width. The textView also resizes automatically to maximum available height. If you want a fixed size for your textField/textView assign a frame on it and set the CHGInputAccessoryViewItem property flexibleSize to NO.
-
+- a UISwith
+```objc
+CHGInputAccessoryViewItemSwitch *item = [CHGInputAccessoryViewItemSwitch item];
+item.switchView.on = YES;
+```
+- a UIProgressView
+The InputAccessoryView has a build-in UIProgressView.
+```objc
+CHGInputAccessoryView *accessoryView = [CHGInputAccessoryView inputAccessoryView];
+accessoryView.progressView.progress = 0.5f;
+```
 - a flexible or fixed space
 ```objc
 [CHGInputAccessoryViewItemTextField flexibleSpace];
