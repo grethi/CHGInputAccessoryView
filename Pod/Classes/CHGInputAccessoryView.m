@@ -242,7 +242,7 @@
     [super layoutSubviews];
 }
 
-#pragma mark - pivate
+#pragma mark - private
 
 - (CGFloat)maxItemHeight
 {
