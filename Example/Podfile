@@ -1,11 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+project 'CHGInputAccessoryView'
 use_frameworks!
 
-target 'CHGInputAccessoryView_Example', :exclusive => true do
+target 'CHGInputAccessoryView_Example' do
   pod "CHGInputAccessoryView", :path => "../"
 end
 
-target 'CHGInputAccessoryView_Tests', :exclusive => true do
+target 'CHGInputAccessoryView_Tests' do
   pod "CHGInputAccessoryView", :path => "../"
 
   

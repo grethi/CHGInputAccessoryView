@@ -104,7 +104,7 @@
         [((CHGView *)self.view) resignFirstResponder];
         
         CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
-        NSLog(@"%hhd", accessoryView.isVisible);
+        NSLog(accessoryView.isVisible ? @"Yes" : @"No");
         
         return;
     }
@@ -116,7 +116,7 @@
     }
     
     CHGInputAccessoryView *accessoryView = (CHGInputAccessoryView *)self.view.inputAccessoryView;
-    NSLog(@"%hhd", accessoryView.isVisible);
+    NSLog(accessoryView.isVisible ? @"Yes" : @"No");
 }
 
 - (void)didTapInfoItem:(CHGInputAccessoryViewItem *)item

@@ -7,129 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1060B4F4ED5F67BC8BB2B56DCC73B137 /* Pods-CHGInputAccessoryView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4569E789B77DB06EE29326FD7C14617 /* Pods-CHGInputAccessoryView_Tests-dummy.m */; };
-		193647219C01C78BF22526F27D5A8C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		1F70645AFB2629A074C53E6871DD19F1 /* CHGInputAccessoryViewItemTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 849BA9FEC2E7E6191CA5E85211F6C105 /* CHGInputAccessoryViewItemTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3102DA358ACE7AADF06B23DA0F3E5912 /* CHGInputAccessoryViewItemTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF71CDF3551CAEA9270BC12D64FFFE /* CHGInputAccessoryViewItemTextView.m */; };
-		36D23AD4D8B53A1D0767469861228104 /* CHGInputAccessoryViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D025DF22F3AFC26686AD41EE799FF429 /* CHGInputAccessoryViewItem.m */; };
-		3F90BA993858D99E4C3FE8798EFE57C3 /* Pods-CHGInputAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B714BB87DCA4DAFC29B713D06CDD8F8 /* Pods-CHGInputAccessoryView_Example-dummy.m */; };
-		4862D91D79E4FE7777D0531FF7A9CD72 /* CHGInputAccessoryView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */; };
-		49B93B426E4A3198F65A146EF8E040E5 /* CHGInputAccessoryViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E963976194F5CBEBA89666B87B73533 /* CHGInputAccessoryViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6657036C37616A98250BC1EAADC5A1D7 /* CHGInputAccessoryViewItemSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F0D36B8C7FCA9057AEA064FF59037 /* CHGInputAccessoryViewItemSwitch.m */; };
-		8A056A00337A4CD14DE2A0C009F8AF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		9621AFEC5658D639EDD55A01CCA1D6BC /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		977D1C8F1511B620948082B166B3A45D /* CHGInputAccessoryViewItemTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F561862557FF134E4FA8FC74E4891 /* CHGInputAccessoryViewItemTextField.m */; };
-		9CE0F3FDB3B33F1BE601BB0F53C43ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		B254F76336EEDFA29B49CB5898BE77C0 /* CHGInputAccessoryViewItemTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AB99B139F083F31170D3D1FB2398206D /* CHGInputAccessoryViewItemTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6F64CD79A51772CA61839D115290E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		E09483CF63EDECD3FB9FC33020FE4793 /* CHGInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBB545A50C5FA70B216D3FE6BBC77EC0 /* CHGInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A01CE39098C9D824399F43C13834CCE /* CHGInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEB4769DA3DD14B96991A6A81728158B /* CHGInputAccessoryViewItemSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0011933FE7D2DA7BD8CF764BA76259 /* CHGInputAccessoryViewItemSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7359D9D30A96B3C62C4F283710F8338 /* CHGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 135D6EF9A0F147CA67A3BDB8E6FF61F8 /* CHGInputAccessoryView.m */; };
-		F9459E0EE4C4669BCF9F38F06EE5A48F /* Pods-CHGInputAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E26373D84F013DBCBCC8360DF7198D /* Pods-CHGInputAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBAAFFF739CD114DAA8A1AAC6E7F7BE6 /* CHGInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */; };
+		0B072AE0DEBBEDEBA6A96EC21B71F30F /* Pods-CHGInputAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B714BB87DCA4DAFC29B713D06CDD8F8 /* Pods-CHGInputAccessoryView_Example-dummy.m */; };
+		11E223BE4491DA4DEFA467DE16CD4355 /* CHGInputAccessoryViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8EA7A1D6D45365D374B41E0A43252 /* CHGInputAccessoryViewItem.m */; };
+		1B6E67B8C8F90363EAA160FBA4F0A9EB /* CHGInputAccessoryViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2D0473990FA4F2047B1E407ACC47E9 /* CHGInputAccessoryViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F77F0CC16B4DD24C56FEDD83E8EDAB /* CHGInputAccessoryViewItemTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5874A57CE1FD3D3E99FA60004FF710 /* CHGInputAccessoryViewItemTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6CBF07D518CADC2CB6696C405CD718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4ACAFD6FF86C5AEB6E152163174632B9 /* Pods-CHGInputAccessoryView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4569E789B77DB06EE29326FD7C14617 /* Pods-CHGInputAccessoryView_Tests-dummy.m */; };
+		4F3907874299EB9244D350148332BAE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		5876E055C56C8115F4C706527C45CF6B /* CHGInputAccessoryViewItemTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 889AC23DE7EE9234089FCCBDBCD08F4F /* CHGInputAccessoryViewItemTextView.m */; };
+		5D14913549B6F1864F701AD5E8AC0299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7D0187C30103C7B6BB106B552DBEFD1F /* CHGInputAccessoryView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14A7A6AF9CF8966E1FBAF2A699D59F58 /* CHGInputAccessoryView.bundle */; };
+		846930BA0C3B141E9DD81CB695D510EF /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		873F7F0A1B33982085694B5A8377966F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		88E7C61EA1766DDE8C4E5225A0C3847A /* CHGInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 247B2CA07368D90B38099F57D9ED2E6A /* CHGInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924A01FC64820234BE584B39656B854F /* Pods-CHGInputAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E26373D84F013DBCBCC8360DF7198D /* Pods-CHGInputAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D5C1988693239EC8CAE08FAE73A3D5 /* CHGInputAccessoryViewItemSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2A1DD90C537DE95A853ACFF252723A /* CHGInputAccessoryViewItemSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD1033CECFA2B02625F840A2BCA1F79 /* CHGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C84F7DFC7F2543FC84C669FD84BD3B /* CHGInputAccessoryView.m */; };
+		D06A62B8B5EA30A96F8C7A433C6087DD /* CHGInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D64916B4FDA322331904250D17E5BAB /* CHGInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1EE2803D230FFA4E791511EF63265E0 /* CHGInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365917C25A6EA54F777FFDD42B10DB4 /* CHGInputAccessoryView-dummy.m */; };
+		D6FFDAAE5974AF0151F31E56440C1306 /* CHGInputAccessoryViewItemTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 541DC3641A7B1C62A8437FBECCA00A69 /* CHGInputAccessoryViewItemTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E528EB5DB9B56CDF272B2E7A798053B4 /* CHGInputAccessoryViewItemSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2449777BDB74930B8C64CBAC85EC7878 /* CHGInputAccessoryViewItemSwitch.m */; };
+		FF4160706C919CFDB57F5BAC7A6DEAAD /* CHGInputAccessoryViewItemTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA36C1FC614111E5A2FA183083D257E /* CHGInputAccessoryViewItemTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4293037A6B2560DFC7781707486E0E0E /* PBXContainerItemProxy */ = {
+		273A156342839E3FB9E048776F7AA0C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FCC9287CA6A1631DE84AF3F51FE3CA02;
+			remoteGlobalIDString = 7B5B4D1C0D73B777C3CEB9CD40A4D9D0;
 			remoteInfo = CHGInputAccessoryView;
 		};
-		82F1C6A1488B8AF3398D7E2753685B18 /* PBXContainerItemProxy */ = {
+		9BE41D469CAD4D9F9E3E1B845A04B54E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FCC9287CA6A1631DE84AF3F51FE3CA02;
-			remoteInfo = CHGInputAccessoryView;
-		};
-		F1C515CE4DEF8CD2EBE41D0B1A32FA98 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF94B24054CB35766FDB31D8DFBB9178;
+			remoteGlobalIDString = 87C27EDD19D02B17C2A104F2D89BC2C0;
 			remoteInfo = "CHGInputAccessoryView-CHGInputAccessoryView";
+		};
+		B1BF456551124CA6C298A278596C5F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5B4D1C0D73B777C3CEB9CD40A4D9D0;
+			remoteInfo = CHGInputAccessoryView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009E27B112FCFE62D4B7B1931EE67E3B /* Pods-CHGInputAccessoryView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGInputAccessoryView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13363A1DAAD24A434773240800D02C8C /* Pods-CHGInputAccessoryView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGInputAccessoryView_Example.modulemap"; sourceTree = "<group>"; };
-		135D6EF9A0F147CA67A3BDB8E6FF61F8 /* CHGInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryView.m; sourceTree = "<group>"; };
-		1A01CE39098C9D824399F43C13834CCE /* CHGInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryView.h; sourceTree = "<group>"; };
+		13363A1DAAD24A434773240800D02C8C /* Pods-CHGInputAccessoryView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHGInputAccessoryView_Example.modulemap"; sourceTree = "<group>"; };
+		1365917C25A6EA54F777FFDD42B10DB4 /* CHGInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHGInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
+		14A7A6AF9CF8966E1FBAF2A699D59F58 /* CHGInputAccessoryView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CHGInputAccessoryView.bundle; path = CHGInputAccessoryView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6CE80F7065EF607D431377A9B7A182 /* Pods-CHGInputAccessoryView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHGInputAccessoryView.xcconfig; sourceTree = "<group>"; };
+		2449777BDB74930B8C64CBAC85EC7878 /* CHGInputAccessoryViewItemSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemSwitch.m; sourceTree = "<group>"; };
+		247B2CA07368D90B38099F57D9ED2E6A /* CHGInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryView.h; sourceTree = "<group>"; };
 		276B331E917F272F9F4B630A72EA8A7B /* Pods-CHGInputAccessoryView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGInputAccessoryView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BEAC985C16FAD94C6EDFBBCF57A3631 /* Pods-CHGInputAccessoryView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGInputAccessoryView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D4B194D801F63FDB2188D7512283F61 /* Pods-CHGInputAccessoryView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGInputAccessoryView_Tests.modulemap"; sourceTree = "<group>"; };
-		4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGInputAccessoryView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0011933FE7D2DA7BD8CF764BA76259 /* CHGInputAccessoryViewItemSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemSwitch.h; sourceTree = "<group>"; };
-		51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-umbrella.h"; sourceTree = "<group>"; };
+		2D4B194D801F63FDB2188D7512283F61 /* Pods-CHGInputAccessoryView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHGInputAccessoryView_Tests.modulemap"; sourceTree = "<group>"; };
+		2D64916B4FDA322331904250D17E5BAB /* CHGInputAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-umbrella.h"; sourceTree = "<group>"; };
+		3FA8EA7A1D6D45365D374B41E0A43252 /* CHGInputAccessoryViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItem.m; sourceTree = "<group>"; };
+		434C4CCAF3A1E1E12C5A473E2B0FE598 /* CHGInputAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHGInputAccessoryView.modulemap; sourceTree = "<group>"; };
+		541DC3641A7B1C62A8437FBECCA00A69 /* CHGInputAccessoryViewItemTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemTextView.h; sourceTree = "<group>"; };
 		54E26373D84F013DBCBCC8360DF7198D /* Pods-CHGInputAccessoryView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGInputAccessoryView_Example-umbrella.h"; sourceTree = "<group>"; };
-		6B0F561862557FF134E4FA8FC74E4891 /* CHGInputAccessoryViewItemTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemTextField.m; sourceTree = "<group>"; };
 		6B714BB87DCA4DAFC29B713D06CDD8F8 /* Pods-CHGInputAccessoryView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGInputAccessoryView_Example-dummy.m"; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		704F584FF88FD41D21DE1B5FF33A0914 /* Pods_CHGInputAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGInputAccessoryView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748B11EFA02D3FEFDC26D0B2A448A712 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A0BD7111B497109F180E5B4282AEF2 /* Pods-CHGInputAccessoryView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHGInputAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		849BA9FEC2E7E6191CA5E85211F6C105 /* CHGInputAccessoryViewItemTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemTextView.h; sourceTree = "<group>"; };
+		7F5874A57CE1FD3D3E99FA60004FF710 /* CHGInputAccessoryViewItemTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemTextField.h; sourceTree = "<group>"; };
 		8669DD2988A9EEBC268A28D6346AF2F6 /* Pods-CHGInputAccessoryView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Tests-resources.sh"; sourceTree = "<group>"; };
-		9E963976194F5CBEBA89666B87B73533 /* CHGInputAccessoryViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItem.h; sourceTree = "<group>"; };
+		889AC23DE7EE9234089FCCBDBCD08F4F /* CHGInputAccessoryViewItemTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemTextView.m; sourceTree = "<group>"; };
+		8B9D8D8291E6EC5DB6FD46430ADD24DF /* Pods_CHGInputAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHGInputAccessoryView_Tests.framework; path = "Pods-CHGInputAccessoryView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA36C1FC614111E5A2FA183083D257E /* CHGInputAccessoryViewItemTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemTextField.m; sourceTree = "<group>"; };
+		929C4A8D3229E3B9BD2669C214EFA698 /* CHGInputAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHGInputAccessoryView.framework; path = CHGInputAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F794C44062D685D7D712B881AE8E992 /* Pods-CHGInputAccessoryView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Example-resources.sh"; sourceTree = "<group>"; };
 		9FC5F8143F1B511D0C272C2E071D5022 /* Pods-CHGInputAccessoryView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGInputAccessoryView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A31F0D36B8C7FCA9057AEA064FF59037 /* CHGInputAccessoryViewItemSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemSwitch.m; sourceTree = "<group>"; };
 		A4DB9452A619D11B5BFA92AE73781AE5 /* Pods-CHGInputAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB99B139F083F31170D3D1FB2398206D /* CHGInputAccessoryViewItemTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemTextField.h; sourceTree = "<group>"; };
+		AA2A1DD90C537DE95A853ACFF252723A /* CHGInputAccessoryViewItemSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItemSwitch.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7EBF4280071B800FD09C4B932F81936 /* Pods-CHGInputAccessoryView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGInputAccessoryView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCDF71CDF3551CAEA9270BC12D64FFFE /* CHGInputAccessoryViewItemTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItemTextView.m; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9682B7E395503599A512564CA2C30CE /* ResourceBundle-CHGInputAccessoryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CHGInputAccessoryView-Info.plist"; sourceTree = "<group>"; };
+		C3D67A0B473FE474400E0C63913C98D8 /* Pods_CHGInputAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHGInputAccessoryView_Example.framework; path = "Pods-CHGInputAccessoryView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B096706DCDC233D7AE72F24396F4A6 /* Pods-CHGInputAccessoryView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9F8B5ECE945D196ECAC1B68F19941D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHGInputAccessoryView.xcconfig; sourceTree = "<group>"; };
 		CBC3CC6A236F98AA5B88151580B1BF60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFD83E517845C205BC7243EF47419D0C /* CHGInputAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CHGInputAccessoryView.modulemap; sourceTree = "<group>"; };
-		D025DF22F3AFC26686AD41EE799FF429 /* CHGInputAccessoryViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryViewItem.m; sourceTree = "<group>"; };
-		D40B238C47E0D0B37FB0A4D9FC964DDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C84F7DFC7F2543FC84C669FD84BD3B /* CHGInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGInputAccessoryView.m; sourceTree = "<group>"; };
 		D4668B2FF384BE164D5B7B7C95BA3214 /* Pods-CHGInputAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGInputAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D690B99DF92920D0219115997F13D4CE /* Pods-CHGInputAccessoryView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGInputAccessoryView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHGInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD2D0473990FA4F2047B1E407ACC47E9 /* CHGInputAccessoryViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGInputAccessoryViewItem.h; sourceTree = "<group>"; };
+		DD620E1704AF033BD385B4D954252088 /* CHGInputAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-prefix.pch"; sourceTree = "<group>"; };
 		F4569E789B77DB06EE29326FD7C14617 /* Pods-CHGInputAccessoryView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGInputAccessoryView_Tests-dummy.m"; sourceTree = "<group>"; };
-		F4A49CB2CCBF16C724BD1590A8663C15 /* Pods_CHGInputAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGInputAccessoryView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F59C9C8E0CD1A8E9ABE9CC483DA0D766 /* CHGInputAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHGInputAccessoryView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		019B5E1EBC05E073108D4ED5D73BA284 /* Frameworks */ = {
+		0AC1BEED38D11D5B23F4F144C9CF768E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6CBF07D518CADC2CB6696C405CD718 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C68BE099BCEB8AC1E62758A26EFD8CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D6255508D71394EC2F3D30A34F7F3AD /* Frameworks */ = {
+		A0E0E2B9896FF76BF8DFD4C90EC74676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				193647219C01C78BF22526F27D5A8C3F /* Foundation.framework in Frameworks */,
+				5D14913549B6F1864F701AD5E8AC0299 /* Foundation.framework in Frameworks */,
+				4F3907874299EB9244D350148332BAE4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ECEE11542D29C2A7FE2C4AAF0793DE8 /* Frameworks */ = {
+		C9359244A7560AC03E95F7A8560CF2BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE0F3FDB3B33F1BE601BB0F53C43ABE /* Foundation.framework in Frameworks */,
-				8A056A00337A4CD14DE2A0C009F8AF7B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7F97A79835C32898DFB310CB931BC03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6F64CD79A51772CA61839D115290E7A /* Foundation.framework in Frameworks */,
+				873F7F0A1B33982085694B5A8377966F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,31 +155,21 @@
 			path = "Target Support Files/Pods-CHGInputAccessoryView_Tests";
 			sourceTree = "<group>";
 		};
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6C6114D85E0D78280610B79BADF7CF75 /* CHGInputAccessoryView */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8C9583DAD402D165C743CEF349A5C548 /* Pod */,
-				999466FB9C4F24FBDA71B9950F06359A /* Support Files */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
-			name = CHGInputAccessoryView;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6D53DEFC9AA91FCCCBFEC0BE531E8325 /* Pods-CHGInputAccessoryView_Example */ = {
@@ -202,70 +193,83 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8C8F66C995E92B8DD95D3F0268EE4114 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B9F71A7CB0419418579535566C45A9FD /* Products */,
+				A43340EE134C3985EBF6206AAABDA294 /* Products */,
 				FD29CD86B52B576BAB46FC36E833A6A6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		84DA70C51776D5023FED71413C45C2E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				247B2CA07368D90B38099F57D9ED2E6A /* CHGInputAccessoryView.h */,
+				D1C84F7DFC7F2543FC84C669FD84BD3B /* CHGInputAccessoryView.m */,
+				DD2D0473990FA4F2047B1E407ACC47E9 /* CHGInputAccessoryViewItem.h */,
+				3FA8EA7A1D6D45365D374B41E0A43252 /* CHGInputAccessoryViewItem.m */,
+				AA2A1DD90C537DE95A853ACFF252723A /* CHGInputAccessoryViewItemSwitch.h */,
+				2449777BDB74930B8C64CBAC85EC7878 /* CHGInputAccessoryViewItemSwitch.m */,
+				7F5874A57CE1FD3D3E99FA60004FF710 /* CHGInputAccessoryViewItemTextField.h */,
+				8EA36C1FC614111E5A2FA183083D257E /* CHGInputAccessoryViewItemTextField.m */,
+				541DC3641A7B1C62A8437FBECCA00A69 /* CHGInputAccessoryViewItemTextView.h */,
+				889AC23DE7EE9234089FCCBDBCD08F4F /* CHGInputAccessoryViewItemTextView.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8C8F66C995E92B8DD95D3F0268EE4114 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C6114D85E0D78280610B79BADF7CF75 /* CHGInputAccessoryView */,
+				CB4C9D74A03B311ACF149CDDDF02C421 /* CHGInputAccessoryView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8C9583DAD402D165C743CEF349A5C548 /* Pod */ = {
+		A43340EE134C3985EBF6206AAABDA294 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAEC9525E791A99EACC103D1B155E1B5 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		999466FB9C4F24FBDA71B9950F06359A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFD83E517845C205BC7243EF47419D0C /* CHGInputAccessoryView.modulemap */,
-				1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */,
-				DFBB212EA7EA1500238C300E9B504D21 /* CHGInputAccessoryView-dummy.m */,
-				F59C9C8E0CD1A8E9ABE9CC483DA0D766 /* CHGInputAccessoryView-prefix.pch */,
-				51F4B0D384D6734CBCE532D605D0FE81 /* CHGInputAccessoryView-umbrella.h */,
-				D40B238C47E0D0B37FB0A4D9FC964DDE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CHGInputAccessoryView";
-			sourceTree = "<group>";
-		};
-		B9F71A7CB0419418579535566C45A9FD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */,
-				7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */,
-				F4A49CB2CCBF16C724BD1590A8663C15 /* Pods_CHGInputAccessoryView_Example.framework */,
-				704F584FF88FD41D21DE1B5FF33A0914 /* Pods_CHGInputAccessoryView_Tests.framework */,
+				14A7A6AF9CF8966E1FBAF2A699D59F58 /* CHGInputAccessoryView.bundle */,
+				929C4A8D3229E3B9BD2669C214EFA698 /* CHGInputAccessoryView.framework */,
+				C3D67A0B473FE474400E0C63913C98D8 /* Pods_CHGInputAccessoryView_Example.framework */,
+				8B9D8D8291E6EC5DB6FD46430ADD24DF /* Pods_CHGInputAccessoryView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAEC9525E791A99EACC103D1B155E1B5 /* Classes */ = {
+		C01E5777653B24AE4E91F540B9BFD849 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1A01CE39098C9D824399F43C13834CCE /* CHGInputAccessoryView.h */,
-				135D6EF9A0F147CA67A3BDB8E6FF61F8 /* CHGInputAccessoryView.m */,
-				9E963976194F5CBEBA89666B87B73533 /* CHGInputAccessoryViewItem.h */,
-				D025DF22F3AFC26686AD41EE799FF429 /* CHGInputAccessoryViewItem.m */,
-				4F0011933FE7D2DA7BD8CF764BA76259 /* CHGInputAccessoryViewItemSwitch.h */,
-				A31F0D36B8C7FCA9057AEA064FF59037 /* CHGInputAccessoryViewItemSwitch.m */,
-				AB99B139F083F31170D3D1FB2398206D /* CHGInputAccessoryViewItemTextField.h */,
-				6B0F561862557FF134E4FA8FC74E4891 /* CHGInputAccessoryViewItemTextField.m */,
-				849BA9FEC2E7E6191CA5E85211F6C105 /* CHGInputAccessoryViewItemTextView.h */,
-				BCDF71CDF3551CAEA9270BC12D64FFFE /* CHGInputAccessoryViewItemTextView.m */,
+				84DA70C51776D5023FED71413C45C2E6 /* Classes */,
 			);
-			path = Classes;
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		CB4C9D74A03B311ACF149CDDDF02C421 /* CHGInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				C01E5777653B24AE4E91F540B9BFD849 /* Pod */,
+				CC2CA495DD72BD11103EDE6991A05E8D /* Support Files */,
+			);
+			name = CHGInputAccessoryView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC2CA495DD72BD11103EDE6991A05E8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				434C4CCAF3A1E1E12C5A473E2B0FE598 /* CHGInputAccessoryView.modulemap */,
+				CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */,
+				1365917C25A6EA54F777FFDD42B10DB4 /* CHGInputAccessoryView-dummy.m */,
+				DD620E1704AF033BD385B4D954252088 /* CHGInputAccessoryView-prefix.pch */,
+				2D64916B4FDA322331904250D17E5BAB /* CHGInputAccessoryView-umbrella.h */,
+				748B11EFA02D3FEFDC26D0B2A448A712 /* Info.plist */,
+				B9682B7E395503599A512564CA2C30CE /* ResourceBundle-CHGInputAccessoryView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHGInputAccessoryView";
 			sourceTree = "<group>";
 		};
 		FD29CD86B52B576BAB46FC36E833A6A6 /* Targets Support Files */ = {
@@ -280,81 +284,100 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C65696FA56650283C310B146DF76252 /* Headers */ = {
+		630B6133DBDCDE421ADFDD412559301B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09483CF63EDECD3FB9FC33020FE4793 /* CHGInputAccessoryView-umbrella.h in Headers */,
-				EBB545A50C5FA70B216D3FE6BBC77EC0 /* CHGInputAccessoryView.h in Headers */,
-				49B93B426E4A3198F65A146EF8E040E5 /* CHGInputAccessoryViewItem.h in Headers */,
-				EEB4769DA3DD14B96991A6A81728158B /* CHGInputAccessoryViewItemSwitch.h in Headers */,
-				B254F76336EEDFA29B49CB5898BE77C0 /* CHGInputAccessoryViewItemTextField.h in Headers */,
-				1F70645AFB2629A074C53E6871DD19F1 /* CHGInputAccessoryViewItemTextView.h in Headers */,
+				924A01FC64820234BE584B39656B854F /* Pods-CHGInputAccessoryView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E50FDA5B49AF2E61F9082B0449B0585 /* Headers */ = {
+		C529942B992AB9486C8D71C0E5CB801A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9459E0EE4C4669BCF9F38F06EE5A48F /* Pods-CHGInputAccessoryView_Example-umbrella.h in Headers */,
+				846930BA0C3B141E9DD81CB695D510EF /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C12404FBE50A2127D24ABE8036D3DB25 /* Headers */ = {
+		DCB10B77EA7288CA65F49D44750BED10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9621AFEC5658D639EDD55A01CCA1D6BC /* Pods-CHGInputAccessoryView_Tests-umbrella.h in Headers */,
+				D06A62B8B5EA30A96F8C7A433C6087DD /* CHGInputAccessoryView-umbrella.h in Headers */,
+				88E7C61EA1766DDE8C4E5225A0C3847A /* CHGInputAccessoryView.h in Headers */,
+				1B6E67B8C8F90363EAA160FBA4F0A9EB /* CHGInputAccessoryViewItem.h in Headers */,
+				96D5C1988693239EC8CAE08FAE73A3D5 /* CHGInputAccessoryViewItemSwitch.h in Headers */,
+				38F77F0CC16B4DD24C56FEDD83E8EDAB /* CHGInputAccessoryViewItemTextField.h in Headers */,
+				D6FFDAAE5974AF0151F31E56440C1306 /* CHGInputAccessoryViewItemTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		868283A499E2C9D6C66BF038DD3517BD /* Pods-CHGInputAccessoryView_Tests */ = {
+		1AFDDA2C45AE2349E057917A32FCDE78 /* Pods-CHGInputAccessoryView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79AEA434498DE9D6B5444E7937C9FF03 /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Tests" */;
+			buildConfigurationList = F0A641EA18BFED3EE31CAB3E9E8BDA5F /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Example" */;
 			buildPhases = (
-				964953FE029D3E8C7F9F8A893398B434 /* Sources */,
-				6D6255508D71394EC2F3D30A34F7F3AD /* Frameworks */,
-				C12404FBE50A2127D24ABE8036D3DB25 /* Headers */,
+				C0E8F16086C797A49BDC08EE52A8067B /* Sources */,
+				0AC1BEED38D11D5B23F4F144C9CF768E /* Frameworks */,
+				630B6133DBDCDE421ADFDD412559301B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8D025D39932FB32A58E8551EBEB43D1 /* PBXTargetDependency */,
-			);
-			name = "Pods-CHGInputAccessoryView_Tests";
-			productName = "Pods-CHGInputAccessoryView_Tests";
-			productReference = 704F584FF88FD41D21DE1B5FF33A0914 /* Pods_CHGInputAccessoryView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B4C7AD71D9604E05A935D26ECB7E9DB7 /* Pods-CHGInputAccessoryView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB94258132C02B16D262FD0FBF1753CA /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Example" */;
-			buildPhases = (
-				E35740E3A33E4D4812788E8364A33684 /* Sources */,
-				B7F97A79835C32898DFB310CB931BC03 /* Frameworks */,
-				6E50FDA5B49AF2E61F9082B0449B0585 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A399208911FA72CC174567C153DBF10A /* PBXTargetDependency */,
+				16EFE15EF45C79C7B87424A68499A154 /* PBXTargetDependency */,
 			);
 			name = "Pods-CHGInputAccessoryView_Example";
 			productName = "Pods-CHGInputAccessoryView_Example";
-			productReference = F4A49CB2CCBF16C724BD1590A8663C15 /* Pods_CHGInputAccessoryView_Example.framework */;
+			productReference = C3D67A0B473FE474400E0C63913C98D8 /* Pods_CHGInputAccessoryView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF94B24054CB35766FDB31D8DFBB9178 /* CHGInputAccessoryView-CHGInputAccessoryView */ = {
+		341EAFAF55ED25508936DF5F904942CC /* Pods-CHGInputAccessoryView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0A6802B23093300DB4A3ED1CFDE6DD /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */;
+			buildConfigurationList = E025CA505D74A03C6524EDB7EF9E8D6C /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Tests" */;
 			buildPhases = (
-				F8E1264A457DF4E23F82AA5E0ED98FA4 /* Sources */,
-				019B5E1EBC05E073108D4ED5D73BA284 /* Frameworks */,
-				510BDF6A4C4D3F75BBC1CE993A782F63 /* Resources */,
+				B6759646A8B0D88929E72A41D61604D2 /* Sources */,
+				C9359244A7560AC03E95F7A8560CF2BD /* Frameworks */,
+				C529942B992AB9486C8D71C0E5CB801A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025EE590504352ACBEF3AC31E746B8C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHGInputAccessoryView_Tests";
+			productName = "Pods-CHGInputAccessoryView_Tests";
+			productReference = 8B9D8D8291E6EC5DB6FD46430ADD24DF /* Pods_CHGInputAccessoryView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B5B4D1C0D73B777C3CEB9CD40A4D9D0 /* CHGInputAccessoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A735150EC3B3D17AD14D809154C05E6 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */;
+			buildPhases = (
+				45BCAE851399DB6F6A54741FB455F851 /* Sources */,
+				A0E0E2B9896FF76BF8DFD4C90EC74676 /* Frameworks */,
+				818F2F937F82BE7FB2223388EE1856DB /* Resources */,
+				DCB10B77EA7288CA65F49D44750BED10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B23BFE4CB4C511E8F14DDA0E108556 /* PBXTargetDependency */,
+			);
+			name = CHGInputAccessoryView;
+			productName = CHGInputAccessoryView;
+			productReference = 929C4A8D3229E3B9BD2669C214EFA698 /* CHGInputAccessoryView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87C27EDD19D02B17C2A104F2D89BC2C0 /* CHGInputAccessoryView-CHGInputAccessoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D492B2EE41EA00B6E2479ABAD0FBDD9 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */;
+			buildPhases = (
+				AEDDEC197CC650383F2587FEBE3F5DE2 /* Sources */,
+				6C68BE099BCEB8AC1E62758A26EFD8CC /* Frameworks */,
+				92BCB70F6F2E2F7A2D5DE784D687ED50 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -362,27 +385,8 @@
 			);
 			name = "CHGInputAccessoryView-CHGInputAccessoryView";
 			productName = "CHGInputAccessoryView-CHGInputAccessoryView";
-			productReference = 4EFDA4FE651439928943AAB6E7C30712 /* CHGInputAccessoryView.bundle */;
+			productReference = 14A7A6AF9CF8966E1FBAF2A699D59F58 /* CHGInputAccessoryView.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		FCC9287CA6A1631DE84AF3F51FE3CA02 /* CHGInputAccessoryView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 124C85B6EFCE44527BB5AB079FC9F662 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */;
-			buildPhases = (
-				05DEFCCE56AC2D1BA5B27F804FDD78CB /* Sources */,
-				8ECEE11542D29C2A7FE2C4AAF0793DE8 /* Frameworks */,
-				D6993778B7BD3E88947F97515735F6F0 /* Resources */,
-				0C65696FA56650283C310B146DF76252 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				012554143D2AF1D92945BFF360FF1EE2 /* PBXTargetDependency */,
-			);
-			name = CHGInputAccessoryView;
-			productName = CHGInputAccessoryView;
-			productReference = 7DD082E07AD67DB6D18A257601D01F4A /* CHGInputAccessoryView.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -390,7 +394,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -401,135 +405,207 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B9F71A7CB0419418579535566C45A9FD /* Products */;
+			productRefGroup = A43340EE134C3985EBF6206AAABDA294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCC9287CA6A1631DE84AF3F51FE3CA02 /* CHGInputAccessoryView */,
-				BF94B24054CB35766FDB31D8DFBB9178 /* CHGInputAccessoryView-CHGInputAccessoryView */,
-				B4C7AD71D9604E05A935D26ECB7E9DB7 /* Pods-CHGInputAccessoryView_Example */,
-				868283A499E2C9D6C66BF038DD3517BD /* Pods-CHGInputAccessoryView_Tests */,
+				7B5B4D1C0D73B777C3CEB9CD40A4D9D0 /* CHGInputAccessoryView */,
+				87C27EDD19D02B17C2A104F2D89BC2C0 /* CHGInputAccessoryView-CHGInputAccessoryView */,
+				1AFDDA2C45AE2349E057917A32FCDE78 /* Pods-CHGInputAccessoryView_Example */,
+				341EAFAF55ED25508936DF5F904942CC /* Pods-CHGInputAccessoryView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		510BDF6A4C4D3F75BBC1CE993A782F63 /* Resources */ = {
+		818F2F937F82BE7FB2223388EE1856DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0187C30103C7B6BB106B552DBEFD1F /* CHGInputAccessoryView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6993778B7BD3E88947F97515735F6F0 /* Resources */ = {
+		92BCB70F6F2E2F7A2D5DE784D687ED50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4862D91D79E4FE7777D0531FF7A9CD72 /* CHGInputAccessoryView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DEFCCE56AC2D1BA5B27F804FDD78CB /* Sources */ = {
+		45BCAE851399DB6F6A54741FB455F851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAAFFF739CD114DAA8A1AAC6E7F7BE6 /* CHGInputAccessoryView-dummy.m in Sources */,
-				F7359D9D30A96B3C62C4F283710F8338 /* CHGInputAccessoryView.m in Sources */,
-				36D23AD4D8B53A1D0767469861228104 /* CHGInputAccessoryViewItem.m in Sources */,
-				6657036C37616A98250BC1EAADC5A1D7 /* CHGInputAccessoryViewItemSwitch.m in Sources */,
-				977D1C8F1511B620948082B166B3A45D /* CHGInputAccessoryViewItemTextField.m in Sources */,
-				3102DA358ACE7AADF06B23DA0F3E5912 /* CHGInputAccessoryViewItemTextView.m in Sources */,
+				D1EE2803D230FFA4E791511EF63265E0 /* CHGInputAccessoryView-dummy.m in Sources */,
+				ABD1033CECFA2B02625F840A2BCA1F79 /* CHGInputAccessoryView.m in Sources */,
+				11E223BE4491DA4DEFA467DE16CD4355 /* CHGInputAccessoryViewItem.m in Sources */,
+				E528EB5DB9B56CDF272B2E7A798053B4 /* CHGInputAccessoryViewItemSwitch.m in Sources */,
+				FF4160706C919CFDB57F5BAC7A6DEAAD /* CHGInputAccessoryViewItemTextField.m in Sources */,
+				5876E055C56C8115F4C706527C45CF6B /* CHGInputAccessoryViewItemTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		964953FE029D3E8C7F9F8A893398B434 /* Sources */ = {
+		AEDDEC197CC650383F2587FEBE3F5DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1060B4F4ED5F67BC8BB2B56DCC73B137 /* Pods-CHGInputAccessoryView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E35740E3A33E4D4812788E8364A33684 /* Sources */ = {
+		B6759646A8B0D88929E72A41D61604D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F90BA993858D99E4C3FE8798EFE57C3 /* Pods-CHGInputAccessoryView_Example-dummy.m in Sources */,
+				4ACAFD6FF86C5AEB6E152163174632B9 /* Pods-CHGInputAccessoryView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8E1264A457DF4E23F82AA5E0ED98FA4 /* Sources */ = {
+		C0E8F16086C797A49BDC08EE52A8067B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B072AE0DEBBEDEBA6A96EC21B71F30F /* Pods-CHGInputAccessoryView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		012554143D2AF1D92945BFF360FF1EE2 /* PBXTargetDependency */ = {
+		025EE590504352ACBEF3AC31E746B8C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHGInputAccessoryView;
+			target = 7B5B4D1C0D73B777C3CEB9CD40A4D9D0 /* CHGInputAccessoryView */;
+			targetProxy = 273A156342839E3FB9E048776F7AA0C0 /* PBXContainerItemProxy */;
+		};
+		16EFE15EF45C79C7B87424A68499A154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHGInputAccessoryView;
+			target = 7B5B4D1C0D73B777C3CEB9CD40A4D9D0 /* CHGInputAccessoryView */;
+			targetProxy = B1BF456551124CA6C298A278596C5F20 /* PBXContainerItemProxy */;
+		};
+		17B23BFE4CB4C511E8F14DDA0E108556 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CHGInputAccessoryView-CHGInputAccessoryView";
-			target = BF94B24054CB35766FDB31D8DFBB9178 /* CHGInputAccessoryView-CHGInputAccessoryView */;
-			targetProxy = F1C515CE4DEF8CD2EBE41D0B1A32FA98 /* PBXContainerItemProxy */;
-		};
-		A399208911FA72CC174567C153DBF10A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CHGInputAccessoryView;
-			target = FCC9287CA6A1631DE84AF3F51FE3CA02 /* CHGInputAccessoryView */;
-			targetProxy = 4293037A6B2560DFC7781707486E0E0E /* PBXContainerItemProxy */;
-		};
-		B8D025D39932FB32A58E8551EBEB43D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CHGInputAccessoryView;
-			target = FCC9287CA6A1631DE84AF3F51FE3CA02 /* CHGInputAccessoryView */;
-			targetProxy = 82F1C6A1488B8AF3398D7E2753685B18 /* PBXContainerItemProxy */;
+			target = 87C27EDD19D02B17C2A104F2D89BC2C0 /* CHGInputAccessoryView-CHGInputAccessoryView */;
+			targetProxy = 9BE41D469CAD4D9F9E3E1B845A04B54E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		360EB65C74BED3CEA1730786DD583073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CHGInputAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40342DFBD8B2526714C0E4425E1E519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B096706DCDC233D7AE72F24396F4A6 /* Pods-CHGInputAccessoryView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Pods-CHGInputAccessoryView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHGInputAccessoryView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		49B4AC7EF6011D526EB0D8FE68A711D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4668B2FF384BE164D5B7B7C95BA3214 /* Pods-CHGInputAccessoryView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Pods-CHGInputAccessoryView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHGInputAccessoryView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -537,17 +613,23 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -558,43 +640,37 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		0B8B03FCFE3A5EF662A62A6C73527D68 /* Debug */ = {
+		6C9D52249C383C0069812DFF47F65D6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
+			baseConfigurationReference = CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CHGInputAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		0F8ACF89BBF07022D88E32152F0DDAA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = CHGInputAccessoryView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -602,52 +678,27 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		31DC49DEF47F0FC48075B57B26ED03CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4668B2FF384BE164D5B7B7C95BA3214 /* Pods-CHGInputAccessoryView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Pods-CHGInputAccessoryView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CHGInputAccessoryView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71591FB236833886C18DB48BD15EE228 /* Debug */ = {
+		6CB9A5D373EE33AFF53FC4AD8C1F4F7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4DB9452A619D11B5BFA92AE73781AE5 /* Pods-CHGInputAccessoryView_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Tests/Pods-CHGInputAccessoryView_Tests.modulemap";
@@ -655,6 +706,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CHGInputAccessoryView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -664,89 +716,86 @@
 			};
 			name = Debug;
 		};
-		C620864BC4D7FFBE4D50BEF47EBFCFA3 /* Release */ = {
+		7098C377971713E6BA0786959A7CF991 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
+			baseConfigurationReference = CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHGInputAccessoryView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/ResourceBundle-CHGInputAccessoryView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = CHGInputAccessoryView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		C6D3106890EAA77FCEBAC8679E1C2DA0 /* Release */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F142B287F9E1294ED9982B9AB1AC370 /* CHGInputAccessoryView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CHGInputAccessoryView/CHGInputAccessoryView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CHGInputAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D3EF4BE60BBCC80957E9649A77B96EE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6B096706DCDC233D7AE72F24396F4A6 /* Pods-CHGInputAccessoryView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Example/Pods-CHGInputAccessoryView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CHGInputAccessoryView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F80DEF2CB6F9D2BE0F829F94F75AEE21 /* Release */ = {
+		EC084618FAEDF3B37507D5F0F73FA9EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76A0BD7111B497109F180E5B4282AEF2 /* Pods-CHGInputAccessoryView_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHGInputAccessoryView_Tests/Pods-CHGInputAccessoryView_Tests.modulemap";
@@ -754,59 +803,77 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CHGInputAccessoryView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F10ECF00F800E9632FABDD988ED30028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA7DE78663F4E1F1A8E9450A48EF5A4 /* CHGInputAccessoryView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHGInputAccessoryView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CHGInputAccessoryView/ResourceBundle-CHGInputAccessoryView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CHGInputAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		124C85B6EFCE44527BB5AB079FC9F662 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F8ACF89BBF07022D88E32152F0DDAA1 /* Debug */,
-				C6D3106890EAA77FCEBAC8679E1C2DA0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79AEA434498DE9D6B5444E7937C9FF03 /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Tests" */ = {
+		4D492B2EE41EA00B6E2479ABAD0FBDD9 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71591FB236833886C18DB48BD15EE228 /* Debug */,
-				F80DEF2CB6F9D2BE0F829F94F75AEE21 /* Release */,
+				7098C377971713E6BA0786959A7CF991 /* Debug */,
+				F10ECF00F800E9632FABDD988ED30028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F0A6802B23093300DB4A3ED1CFDE6DD /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView-CHGInputAccessoryView" */ = {
+		5A735150EC3B3D17AD14D809154C05E6 /* Build configuration list for PBXNativeTarget "CHGInputAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B8B03FCFE3A5EF662A62A6C73527D68 /* Debug */,
-				C620864BC4D7FFBE4D50BEF47EBFCFA3 /* Release */,
+				360EB65C74BED3CEA1730786DD583073 /* Debug */,
+				6C9D52249C383C0069812DFF47F65D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB94258132C02B16D262FD0FBF1753CA /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Example" */ = {
+		E025CA505D74A03C6524EDB7EF9E8D6C /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31DC49DEF47F0FC48075B57B26ED03CA /* Debug */,
-				D3EF4BE60BBCC80957E9649A77B96EE5 /* Release */,
+				6CB9A5D373EE33AFF53FC4AD8C1F4F7B /* Debug */,
+				EC084618FAEDF3B37507D5F0F73FA9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A641EA18BFED3EE31CAB3E9E8BDA5F /* Build configuration list for PBXNativeTarget "Pods-CHGInputAccessoryView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B4AC7EF6011D526EB0D8FE68A711D0 /* Debug */,
+				40342DFBD8B2526714C0E4425E1E519C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
