@@ -159,7 +159,6 @@
  *  Changes InputAccessoryView height.
  *
  *  @param height   new InputAccessoryViews height
- *  @param animated animate the change
  */
 - (void)resizeToHeight:(CGFloat)height;
 
