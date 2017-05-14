@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Christian Greth <greth.christian@googlemail.com>
+// Copyright (c) 2017 Christian Greth <greth.christian@googlemail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,19 +23,19 @@
 @interface CHGInputAccessoryViewItemTextView : CHGInputAccessoryViewItem
 
 /**
- The textField of this item.
+ The textView of this item.
  */
 @property (nonatomic, readonly, retain) UITextView *textView;
 
 /**
- Builds a new item with a textField.
+ Builds a new item with a textView.
  */
 + (CHGInputAccessoryViewItemTextView *)item;
 
 /**
- Builds a new item with a textField.
+ Builds a new item with a textView.
  
- @param delegate the UITextFieldDelegate
+ @param delegate the UITextViewDelegate
  */
 + (CHGInputAccessoryViewItemTextView *)itemWithDelegate:(id<UITextViewDelegate>)delegate;
 

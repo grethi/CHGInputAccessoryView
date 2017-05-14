@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Christian Greth <greth.christian@googlemail.com>
+// Copyright (c) 2017 Christian Greth <greth.christian@googlemail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -178,7 +178,7 @@
 - (void)updateHeight
 {
     CGFloat newHeight = [self maxItemHeight] + 2 * _itemMargin;
-
+    
     if (newHeight > CGRectGetHeight(self.frame)) {
         if (newHeight > self.maxHeight) newHeight = self.maxHeight;
         [self resizeToHeight:newHeight];
@@ -197,8 +197,7 @@
     for (NSLayoutConstraint *constraint in [self constraints]) {
         if (constraint.firstAttribute == NSLayoutAttributeHeight) {
             constraint.constant = height;
-            [self layoutSubviews];
-            break;
+            // break; // looks like apple added some more constraints defining the views height
         }
     }
 }
@@ -234,11 +233,11 @@
             CGRect frame = item.customView.frame;
             frame.size.width = flexItemWidth;
             item.customView.frame = frame;
-
+            
             [item resizeToHeight:(CGRectGetHeight(self.bounds) - itemMargin)];
         }
     }
-
+    
     [super layoutSubviews];
 }
 

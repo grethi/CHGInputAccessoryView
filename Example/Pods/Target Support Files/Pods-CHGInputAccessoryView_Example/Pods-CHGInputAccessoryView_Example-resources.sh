@@ -27,7 +27,7 @@ case "${TARGETED_DEVICE_FAMILY}" in
   *)
     TARGET_DEVICE_ARGS="--target-device mac"
     ;;
-esac<
+esac
 
 install_resource()
 {
