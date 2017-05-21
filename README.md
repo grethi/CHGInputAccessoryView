@@ -23,7 +23,7 @@ pod "CHGInputAccessoryView"
 
 ### Prepare a UIView or UIViewController
 
-At first you must prepare a UIView or a UIViewController to become a first responder and to attach an input accessory view.
+At first you must prepare a UIView or a UIViewController to become a first responder and attach an input accessory view.
 
 Make UIView/UIViewController property inputAccessoryView writeable:
 
@@ -41,7 +41,7 @@ return YES;
 
 ### Set up a CHGInputAccessoryView
 
-Setting up an new CHGInputAccessoryView is as simple as setting up a UIToolbar.
+Setting up a new CHGInputAccessoryView is as simple as setting up a UIToolbar.
 
 ```objc
 // get an instance of CHGInputAccessoryView
@@ -53,16 +53,16 @@ accessoryView.inputAccessoryViewDelegate = self;
 // create a CHGInputAccessoryViewItem
 CHGInputAccessoryViewItem *trashItem = [CHGInputAccessoryViewItem buttonWithTitle:@"Trash"];
 
-// attach accessory views items
+// attach accessory view items
 accessoryView.items = @[ trashItem ];
 
-// attach the accessory
+// attach the accessory view
 self.inputAccessoryView = accessoryView;
 ```
 
 ### Items
 
-CHGInputAccessoryView has some prebuild items:
+CHGInputAccessoryView comes with some prebuild items:
 
 - a button with title
 ```objc
