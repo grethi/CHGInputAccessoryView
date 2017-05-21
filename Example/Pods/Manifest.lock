@@ -1,14 +1,16 @@
 PODS:
-  - CHGInputAccessoryView (1.1.0)
+  - CHGInputAccessoryView (1.1.1)
 
 DEPENDENCIES:
   - CHGInputAccessoryView (from `../`)
 
 EXTERNAL SOURCES:
   CHGInputAccessoryView:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  CHGInputAccessoryView: e8c7d798b94a55f5aa84b484f1ae9c6123042dd0
+  CHGInputAccessoryView: c17cf77036775c9dbe3adaee40bab41766660e97
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: a8a1c14626e0508a8f626f05926ec4ac26a178d1
+
+COCOAPODS: 1.2.1
